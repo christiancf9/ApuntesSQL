@@ -58,7 +58,7 @@ ORDER BY marca ASC, modelo DESC;
 ![JOINS](./imagenes/joins.png)
 
 
-**JOIN** permite unir dos o más tablas. Existen diferentes tipos:
+**JOIN** permite unir dos o más tablas. Se definiría como un producto cartesiano. Existen diferentes tipos:
 
 1. JOIN
    - LEFT  [OUTER] JOIN --> Ignora los valores del lado _derecho_ igual que los valores del lado izq. que no son nulos
@@ -98,13 +98,37 @@ LEFT JOIN motos ON coches.matricula = motos.matricula;
 
 ```SQL
 SELECT
-     *
+     marca, modelo, SUM(numero_km)
 FROM
    coches
 WHERE 
-    marca, modelo;
+    marca
 GROUP BY
-       marca
-ORDER BY
-       marca ASC 
+       marca, modelo;
+```
+
+**HAVING** similar a `WHERE`, determina los registros a seleccionar. Permite el uso de varias funciones agregadas...
+
+```SQL
+SELECT
+     marca, modelo, SUM(numero_km)
+FROM
+   coches
+WHERE 
+    marca <> 'MERCEDES';
+GROUP BY
+       marca, modelo
+HAVING SUM(numero_km) > 75000;
+```
+
+**AVG** indica la media aritmética de un par o conjunto de valores en un campo específico.
+
+```SQL
+SELECT
+     marca, modelo, AVG(numero_km)
+FROM
+   coches
+GROUP BY
+       marca, modelo
+HAVING SUM(numero_km) > 75000;
 ```
