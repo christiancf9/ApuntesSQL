@@ -16,7 +16,7 @@ Varchar --> Igual al char, salvo que este, almacena los bytes en el valor campo
                                                 Operadores
 
 Aritméticos   
-              - [+  SUMA]
+              +   SUMA
               -   RESTA
               *   PRODUCTO
               /   DIVISIÓN
@@ -38,4 +38,8 @@ Lógicos
 Concatenación
               +   
 
+                                                Funciones Agregadas
+
+MAX()   -->     
+          
 
