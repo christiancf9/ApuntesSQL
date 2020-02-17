@@ -39,8 +39,34 @@ Varchar --> Igual al char, salvo que este, almacena los bytes en el valor campo
 4. Concatenación
    - (+)   
 
-                                                Funciones Agregadas
+                                              Funciones agregadas
 
-MAX()   -->     
+MAX()   -->  Devuelve el valor máximo
+
+MIN()   -->  Devuelve el valor mínimo
+
+SUM()   -->  Extrae el valor de una suma
           
+COUNT() -->  Nº de filas que cumplan la condición
 
+AVG()   -->  Promedio de los valores de un campo
+
+
+                                              Predicados SQL
+
+MAX()   -->  Devuelve el valor máximo
+
+MIN()   -->  Devuelve el valor mínimo
+
+SUM()   -->  Extrae el valor de una suma
+          
+COUNT() -->  Nº de filas que cumplan la condición
+
+AVG()   -->  Promedio de los valores de un campo
+
+
+                                            Predicados SQL
+                                            
+BETWEEN ... AND   Revisa que el valor está dentro de un intervalo
+
+LIKE              Compara un campo con una cadena alfanumérica. LIKE admite el uso 
