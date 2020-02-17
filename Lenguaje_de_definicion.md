@@ -22,4 +22,5 @@ FROM
 WHERE 
     marca, modelo;
 ```
- 
+
+**WHERE** nos permite filtrar el resultado de una consulta **SELECT**
