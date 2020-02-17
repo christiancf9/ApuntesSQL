@@ -1,4 +1,4 @@
-|   |   |   |   |   |
+| Numéricos  |  Alfanuméricos |  Fecha | Lógico  | BLOB  |
 |---|---|---|---|---|
 |   |   |   |   |   |
 |   |   |   |   |   |
