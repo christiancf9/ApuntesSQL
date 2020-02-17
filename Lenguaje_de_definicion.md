@@ -55,4 +55,11 @@ ORDER BY marca ASC, modelo DESC;
 ```
                                        Consultas combinadas (JOINS)
 
-**INNER JOIN** permite especificar el orden de los datos a ser devueltos.
+**JOIN** permite unir dos o más tablas. Existen diferentes tipos:
+
+1. JOIN
+   - LEFT  [OUTER] JOIN
+   - RIGHT [OUTER] JOIN
+   - FULL  [OUTER] JOIN
+   - INNER JOIN
+
