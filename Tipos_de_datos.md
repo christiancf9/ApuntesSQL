@@ -1,4 +1,4 @@
-                                            Tipos de datos Numéricos
+                                            **Tipos de datos Numéricos**
 
 Integer --> Valores enteros
 
@@ -13,7 +13,7 @@ Char    --> Almacena de 1 .. 255 caracteres alfanuméricos
 Varchar --> Igual al char, salvo que este, almacena los bytes en el valor campo
 
 
-                                                Operadores
+                                                **Operadores**
 
 1. Aritméticos   
    - (+)   SUMA
@@ -39,7 +39,7 @@ Varchar --> Igual al char, salvo que este, almacena los bytes en el valor campo
 4. Concatenación
    - (+)   
 
-                                              Funciones agregadas
+                                              **Funciones agregadas**
 
 MAX()   -->  Devuelve el valor máximo
 
@@ -52,22 +52,9 @@ COUNT() -->  Nº de filas que cumplan la condición
 AVG()   -->  Promedio de los valores de un campo
 
 
-                                              Predicados SQL
-
-MAX()   -->  Devuelve el valor máximo
-
-MIN()   -->  Devuelve el valor mínimo
-
-SUM()   -->  Extrae el valor de una suma
-          
-COUNT() -->  Nº de filas que cumplan la condición
-
-AVG()   -->  Promedio de los valores de un campo
-
-
-                                            Predicados SQL
+                                             **Predicados SQL**
                                             
-**BETWEEN ... AND**   Revisa que el valor está dentro de un intervalo
+BETWEEN ... AND   Revisa que el valor está dentro de un intervalo
 
 LIKE              Compara una cadena. Admite el uso de comodines (%)
 
