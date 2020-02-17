@@ -1,6 +1,6 @@
                                               SENTENCIA SELECT
                                               
-**SELECT** nos permite consultar los datos almacenados
+**SELECT** nos permite consultar los datos almacenados. Ejemplo de Formato:
 
 ```SQL
 SELECT
@@ -10,3 +10,5 @@ FROM
 WHERE 
     <condicion>
 ```
+
+
