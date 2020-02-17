@@ -58,8 +58,7 @@ ORDER BY marca ASC, modelo DESC;
 **JOIN** permite unir dos o más tablas. Existen diferentes tipos:
 
 1. JOIN
-   - LEFT  [OUTER] JOIN
-   - RIGHT [OUTER] JOIN
-   - FULL  [OUTER] JOIN
-   - INNER JOIN
+   - LEFT  [OUTER] JOIN --> Ignora los valores del lado _derecho_ igual que los valores del lado izq. que no son nulos
+   - RIGHT [OUTER] JOIN --> Ignora los valores del lado _izquierdo_ igual que los valores del lado der. que no son nulos
+   - INNER JOIN         --> Une todos los valores, tanto del lado _izquierdo_ como _derecho_
 
