@@ -56,7 +56,7 @@ ORDER BY marca ASC, modelo DESC;
                                        Consultas combinadas (JOINS)
 
 
-                                    ![JOINS](./imagenes/joins.png)
+![JOINS](./imagenes/joins.png)
 
 
 **JOIN** permite unir dos o más tablas. Existen diferentes tipos:
