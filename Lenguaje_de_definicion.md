@@ -115,7 +115,7 @@ SELECT
 FROM
    coches
 WHERE 
-    marca <> 'MERCEDES';
+    marca <> 'MERCEDES'
 GROUP BY
        marca, modelo
 HAVING SUM(numero_km) > 75000;
@@ -129,6 +129,28 @@ SELECT
 FROM
    coches
 GROUP BY
-       marca, modelo
-HAVING SUM(numero_km) > 75000;
+       marca, modelo;
+```
+
+**COUNT** calcula el nº de registros o campos devueltos por una consulta. 
+
+```SQL
+SELECT
+     marca, COUNT(modelo)
+FROM
+   coches
+GROUP BY
+       marca;
+```
+
+**Max, Min** devuelve tanto el mínimo o el máximo de un conjunto/par de valores contenidos en un campo específico
+
+```SQL
+SELECT
+     marca, modelo, MIN(numero_km),
+     MAX(numero_km)
+FROM
+   coches
+GROUP BY
+       marca, modelo;
 ```
