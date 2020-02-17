@@ -18,7 +18,7 @@ WHERE
 SELECT
     *
 FROM
-    coche
+    coches
 WHERE 
     marca, modelo;
 ```
@@ -32,6 +32,8 @@ WHERE
                 color,
                 numero_kilometros,
                 num_plazas 
-FROM tCoches
-WHERE matricula = 'M-1525-ZA';
+FROM 
+   coches
+WHERE 
+    matricula = 'M-1525-ZA';
 ```
