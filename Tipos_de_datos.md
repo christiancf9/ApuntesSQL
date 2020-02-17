@@ -15,12 +15,12 @@ Varchar --> Igual al char, salvo que este, almacena los bytes en el valor campo
 
                                                 Operadores
 
-Aritméticos   
-              +   SUMA
-              -   RESTA
-              *   PRODUCTO
-              /   DIVISIÓN
-              **  EXPONENTE
+1. Aritméticos   
+              - +   SUMA
+              - -   RESTA
+              - *   PRODUCTO
+              - /   DIVISIÓN
+              - **  EXPONENTE
 
 Relacionales
               <  Menor que
