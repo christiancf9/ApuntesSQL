@@ -16,9 +16,9 @@ WHERE
 
 ```SQL
 SELECT
-    *
+     *
 FROM
-    coches
+   coches
 WHERE 
     marca, modelo;
 ```
@@ -37,4 +37,19 @@ FROM
    coches
 WHERE 
     matricula = '1234CCF';
+```
+
+**ORDER BY** permite especificar el orden de los datos a ser devueltos.
+
+```SQL
+    SELECT 
+          matricula, 
+          marca,
+          modelo,
+          color,
+          numero_kilometros,
+          num_plazas 
+FROM 
+   coches
+ORDER BY marca ASC, modelo DESC;
 ```
