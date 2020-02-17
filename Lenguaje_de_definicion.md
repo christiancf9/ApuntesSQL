@@ -53,7 +53,7 @@ FROM
    coches
 ORDER BY marca ASC, modelo DESC;
 ```
-                                       Consultas combinadas (JOINS)
+                                          CONSULTAS COMBINADAS (JOINS)
 
 
 ![JOINS](./imagenes/joins.png)
@@ -93,7 +93,7 @@ FROM
 LEFT JOIN motos ON coches.matricula = motos.matricula;
 ```
 
-                                             Consultas agregadas
+                                             CONSULTAS AGREGADAS
                                        
-**GROUP BY** nos agrupa los registros idénticos en 1 registro
+**GROUP BY** nos agrupa los registros idénticos en 1 único registro
 
