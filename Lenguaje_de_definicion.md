@@ -1,6 +1,6 @@
                                                 SENTENCIAS
                                               
-**SELECT** nos permite consultar los datos almacenados.
+`**SELECT**` nos permite consultar los datos almacenados.
 
 ```SQL
 SELECT
