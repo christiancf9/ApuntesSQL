@@ -26,12 +26,13 @@ WHERE
 **WHERE** nos permite filtrar el resultado de una clausula `SELECT`
 
 ```SQL
-    SELECT matricula, 
-                marca,
-                modelo,
-                color,
-                numero_kilometros,
-                num_plazas 
+    SELECT 
+          matricula, 
+          marca,
+          modelo,
+          color,
+          numero_kilometros,
+          num_plazas 
 FROM 
    coches
 WHERE 
