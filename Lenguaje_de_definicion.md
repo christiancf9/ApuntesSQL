@@ -1,4 +1,4 @@
-                                              SENTENCIA SELECT
+                                                SENTENCIAS
                                               
 **SELECT** nos permite consultar los datos almacenados.
 
