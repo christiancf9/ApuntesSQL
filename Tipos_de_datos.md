@@ -1,4 +1,4 @@
-                                            `Tipos de datos Numéricos´
+                                            Tipos de datos Numéricos
 
 Integer --> Valores enteros
 
