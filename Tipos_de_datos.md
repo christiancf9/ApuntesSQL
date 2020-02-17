@@ -22,21 +22,22 @@ Varchar --> Igual al char, salvo que este, almacena los bytes en el valor campo
    - (/)   DIVISIÓN
    - (**)  EXPONENTE
 
-Relacionales
-              <  Menor que
-              <=  Menor o igual que
-              >   Mayor que
-              >=  Mayor o igual que
-           <> !=  Distinto
-              !<  No menor que
-              !>  No mayor que
-Lógicos
-              AND 
-              OR
-              NOT
+2. Relacionales
+   - (<)     Menor que
+   - (<=)    Menor o igual que
+   - (>)     Mayor que
+   - (>=)    Mayor o igual que
+   - (<> !=) Distinto
+   - (!<)    No menor que
+   - (!>)    No mayor que
+   
+3. Lógicos
+   - AND 
+   - OR
+   - NOT
               
-Concatenación
-              +   
+4. Concatenación
+   - (+)   
 
                                                 Funciones Agregadas
 
