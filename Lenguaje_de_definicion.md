@@ -2,4 +2,11 @@
                                               
 **SELECT** nos permite consultar los datos almacenados
 
-Formato
+```SQL
+SELECT
+    <nombre_campo> 
+FROM
+    <nombre_tabla>
+WHERE 
+    <condicion>
+```
