@@ -12,7 +12,7 @@ Char    --> Almacena de 1 .. 255 caracteres alfanuméricos
 Varchar --> Igual al char, salvo que este, almacena los bytes en el valor campo
 
 
-                                               Operadores
+                                                    Operadores
 
 1. Aritméticos   
    - (+)   SUMA
@@ -38,7 +38,7 @@ Varchar --> Igual al char, salvo que este, almacena los bytes en el valor campo
 4. Concatenación
    - (+)   
 
-                                             Funciones agregadas
+                                                 Funciones agregadas
 
 MAX()   -->  Devuelve el valor máximo
 
@@ -51,7 +51,7 @@ COUNT() -->  Nº de filas que cumplan la condición
 AVG()   -->  Promedio de los valores de un campo
 
 
-                                             Predicados SQL
+                                                 Predicados SQL
                                             
 BETWEEN ... AND   Revisa que el valor está dentro de un intervalo
 
