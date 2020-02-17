@@ -37,11 +37,8 @@ Varchar --> Igual al char, salvo que este, almacena los bytes en el valor campo
               
 4. Concatenación
    - (+)   
-
-                                                    Funciones Agregadas
-                         
-                         
-
+                                                 Predicados SQL
+                                                
 MAX()   -->  Devuelve el valor máximo
 
 MIN()   -->  Devuelve el valor mínimo
