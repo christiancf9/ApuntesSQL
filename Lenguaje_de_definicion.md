@@ -23,4 +23,15 @@ WHERE
     marca, modelo;
 ```
 
-**WHERE** nos permite filtrar el resultado de una consulta `SELECT`
+**WHERE** nos permite filtrar el resultado de una clausula `SELECT`
+
+```SQL
+    SELECT matricula, 
+                marca,
+                modelo,
+                color,
+                numero_kilometros,
+                num_plazas 
+FROM tCoches
+WHERE matricula = 'M-1525-ZA';
+```
