@@ -1,8 +1,4 @@
-| Numéricos  |  Alfanuméricos |  Fecha | Lógico  | BLOB  |
-|---|---|---|---|---|
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
+
 
 Integer --> Valores enteros
 
