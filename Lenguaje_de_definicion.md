@@ -55,6 +55,8 @@ ORDER BY marca ASC, modelo DESC;
 ```
                                        Consultas combinadas (JOINS)
 
+TL;DR
+
 ![JOINS](./imagenes/joins.png)
 
 
