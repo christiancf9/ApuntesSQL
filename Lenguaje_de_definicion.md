@@ -62,6 +62,7 @@ ORDER BY marca ASC, modelo DESC;
    - RIGHT [OUTER] JOIN --> Ignora los valores del lado _izquierdo_ igual que los valores del lado der. que no son nulos
    - INNER JOIN         --> Une todos los valores, tanto del lado _izquierdo_ como _derecho_
 
+** INNER JOIN **
 
 ```SQL
     SELECT 
@@ -75,4 +76,15 @@ ORDER BY marca ASC, modelo DESC;
 FROM 
    coches
 INNER JOIN motos ON coches.marca = motos.marca;
+```
+
+** LEFT/RIGHT JOIN **
+
+```SQL
+    SELECT 
+          coches.matricula, 
+          motos.matricula
+FROM 
+   coches
+LEFT JOIN motos ON coches.matricula = motos.matricula;
 ```
