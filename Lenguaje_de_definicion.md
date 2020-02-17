@@ -13,7 +13,6 @@ WHERE
 
 **FROM** nos indica que los datos serán recuparados de una tabla. Se pueden introducir varias tablas en las subconsultas o consultas combinadas
 
-
 ```SQL
 SELECT
      *
@@ -97,3 +96,15 @@ LEFT JOIN motos ON coches.matricula = motos.matricula;
                                        
 **GROUP BY** nos agrupa los registros idénticos en 1 único registro
 
+```SQL
+SELECT
+     *
+FROM
+   coches
+WHERE 
+    marca, modelo;
+GROUP BY
+       marca
+ORDER BY
+       marca ASC 
+```
