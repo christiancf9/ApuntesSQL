@@ -1,6 +1,6 @@
 # ApuntesSQL
 
-![Imagen SQL](./imagenes/sql.png)
+![Imagen SQL](./imagenes/sql.jpg)
 
 [VARIANTES SQL](./SQL_y_sus_variantes.md)
 
