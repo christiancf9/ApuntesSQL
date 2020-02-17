@@ -54,3 +54,5 @@ FROM
 ORDER BY marca ASC, modelo DESC;
 ```
                                        Consultas combinadas (JOINS)
+
+**INNER JOIN** permite especificar el orden de los datos a ser devueltos.
