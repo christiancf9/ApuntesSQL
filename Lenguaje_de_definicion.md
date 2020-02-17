@@ -53,4 +53,4 @@ FROM
    coches
 ORDER BY marca ASC, modelo DESC;
 ```
-                                           Consultas combinadas (JOINS)
+                                       Consultas combinadas (JOINS)
