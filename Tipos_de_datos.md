@@ -1,5 +1,4 @@
-                                              Tipos de datos Numéricos
-
+                                               Tipos de datos Numéricos
 Integer --> Valores enteros
 
 Numeric --> Numeros reales de (hasta) dígitos
