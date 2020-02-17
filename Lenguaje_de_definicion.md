@@ -92,3 +92,8 @@ FROM
    coches
 LEFT JOIN motos ON coches.matricula = motos.matricula;
 ```
+
+                                       Consultas agregadas
+                                       
+**GROUP BY** nos agrupa los registros idénticos en 1 registro
+
