@@ -67,6 +67,8 @@ AVG()   -->  Promedio de los valores de un campo
 
                                             Predicados SQL
                                             
-BETWEEN ... AND   Revisa que el valor está dentro de un intervalo
+**BETWEEN ... AND**   Revisa que el valor está dentro de un intervalo
 
-LIKE              Compara un campo con una cadena alfanumérica. LIKE admite el uso 
+LIKE              Compara una cadena. Admite el uso de comodines (%)
+
+
