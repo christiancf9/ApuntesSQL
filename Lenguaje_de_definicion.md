@@ -154,3 +154,14 @@ FROM
 GROUP BY
        marca, modelo;
 ```
+
+**SUM** devuelve la suma del conjunto de valores contenidos en el campo...
+
+```SQL
+SELECT
+     marca, modelo, SUM(numero_km)
+FROM
+   coches
+GROUP BY
+       marca, modelo;
+```
