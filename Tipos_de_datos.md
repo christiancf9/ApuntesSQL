@@ -23,7 +23,7 @@ Aritméticos
               **  EXPONENTE
 
 Relacionales
-              <   Menor que
+              1. <  Menor que
               <=  Menor o igual que
               >   Mayor que
               >=  Mayor o igual que
