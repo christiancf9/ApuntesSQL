@@ -3,4 +3,6 @@
 ```SQL
 [CONSTRAINT] <nome-da-restricción>]
       UNIQUE (<atributos>),
+[[NOT]] DERERRABLE
+[INITIALLY INMEDIATE | DEFERRABLE]
 ```
