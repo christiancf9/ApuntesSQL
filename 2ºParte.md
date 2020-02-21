@@ -4,4 +4,4 @@
 ´´´SQL
 [CONSTRAINT] <nome-da-restricción>]
       UNIQUE (<atributos>),
-```
+´´´
