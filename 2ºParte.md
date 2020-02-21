@@ -1,7 +1,6 @@
-[ON DELETE 
-      BO]
+ --> REVISAR DIBUJO ANTERIOR
 
-´´´SQL
+```SQL
 [CONSTRAINT] <nome-da-restricción>]
       UNIQUE (<atributos>),
-´´´
+```
