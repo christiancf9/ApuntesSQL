@@ -15,3 +15,11 @@ CHECK saldo >= (
      WHERE departamento='A'
 )
 ```
+
+```SQL
+DROP TABLE
+     SELECT saldo
+     FROM empregado
+     WHERE departamento='A'
+)
+```
