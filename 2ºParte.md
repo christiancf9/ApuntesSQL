@@ -6,3 +6,12 @@
 [[NOT]] DERERRABLE
 [INITIALLY INMEDIATE | DEFERRABLE]
 ```
+
+
+```SQL
+CHECK saldo >= (
+     SELECT saldo
+     FROM empregado
+     WHERE departamento='A'
+)
+```
