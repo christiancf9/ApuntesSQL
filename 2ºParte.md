@@ -30,3 +30,4 @@ TIPOS (DML) --> INSERT, UPDATE y DELETE.
 
 INSERT INTO nome-da-taboa
 [(atributo 1, atributo 2)]
+(VALUES (valor1, valor2) | SELECT ...)
