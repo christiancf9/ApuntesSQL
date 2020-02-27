@@ -25,3 +25,7 @@ DROP TABLE
 ```
 
 TIPOS (DML) --> INSERT, UPDATE y DELETE.
+
+``INSERT``
+
+INSERT INTO <nome-da-taboa>
