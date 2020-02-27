@@ -23,3 +23,5 @@ DROP TABLE
      WHERE departamento='A'
 )
 ```
+
+TIPOS (DML) --> INSERT, UPDATE y DELETE.
