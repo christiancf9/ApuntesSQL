@@ -28,4 +28,5 @@ TIPOS (DML) --> INSERT, UPDATE y DELETE.
 
 ``INSERT``
 
-INSERT INTO <nome-da-taboa>
+INSERT INTO nome-da-taboa
+[(atributo 1, atributo 2)]
