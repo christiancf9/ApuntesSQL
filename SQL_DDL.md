@@ -20,10 +20,10 @@ Uno de los primero(s) pasos a la hora de crear una BBDD, es crear las tablas que
 ``CREACIÓN`` de una tabla
 
 ```sql
-CREATE TABLE [schema.]table 
-          ( { column datatype [DEFAULT expr] [column_constraint] ... 
+CREATE TABLE [esquema.]tabla
+          ( { columna tipo_de_dato [DEFAULT expression] [columna_constraint] ... 
             | table_constraint} 
-         [, { column datatype [DEFAULT expr] [column_constraint] ... 
-            | table_constraint} ]...) 
-         [AS subquery]
+         [, { column datatype [DEFAULT expression] [columna_constraint] ... 
+            | tabla_constraint} ]...) 
+         [AS subconsulta]
 ```
