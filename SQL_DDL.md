@@ -8,8 +8,7 @@ Un esquema es la colección de múltiples objetos de una BBDD, que son conocidos
   
   ***
 :::sql 
-Ejemplo de código
-
-:::sql
+SELECT 'HOLA MUNDO'
+FROM DUAL;
 
 Jijiji
