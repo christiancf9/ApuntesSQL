@@ -7,8 +7,8 @@ Un esquema es la colección de múltiples objetos de una BBDD, que son conocidos
   - Tabla --> Para el almacenamiento 
   
   ***
-:::sql 
-SELECT 'HOLA MUNDO'
-FROM DUAL;
-
-Jijiji
+ :::python
+    import lifetime
+    
+    for each_day in lifetime.days():
+        carpe_diem()
