@@ -7,7 +7,7 @@ Un esquema es la colección de múltiples objetos de una BBDD, que son conocidos
   - Tabla --> Para el almacenamiento 
   
   ***
- :::python
+ ::python
     import lifetime
     
     for each_day in lifetime.days():
