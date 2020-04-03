@@ -6,8 +6,8 @@
 
 [TIPOS DATOS](./Tipos_de_datos.md)
 
-[LENGUAJE de DEFINICIÓN](./Lenguaje_de_definicion.md)
+[SQL - DQL](./SQL_DQL.md)
 
-[SQL - DDL](./sql_ddl.md)
+[SQL - DDL](./SQL_DDL.md)
 
-[SQL - DML](./sql_dml.md)
+[SQL - DML](./SQL_DML.md)
