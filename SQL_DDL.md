@@ -27,5 +27,9 @@ CREATE TABLE [schema.]tabla
             | restriccion_tabla} ]...) 
          [AS subconsulta]
 ```
-
+  * Es imprescindible tener como privilegio ``CREATE TABLE``.
+  * Se ha de especificar:
+      * El nombre de la tabla
+      * Y para las columnas: Nombre, tipo de dato (datatype) y tamaño.
+ 
 
