@@ -1,4 +1,4 @@
-                                                SENTENCIA DQL
+                                                  SENTENCIA DQL
                                               
 **SELECT** nos permite consultar los datos almacenados.
 
