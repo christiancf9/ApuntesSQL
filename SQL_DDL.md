@@ -19,6 +19,8 @@ Uno de los primero(s) pasos a la hora de crear una BBDD, es crear las tablas que
   ***
 ``CREACIÓN`` de una tabla
 
+Sintáxis
+
 ```sql
 CREATE TABLE [schema.]tabla
           ( { columna tipo_de_dato [expresion por defecto] [restriccion de columna CONSTRAINT] ... 
@@ -32,5 +34,10 @@ CREATE TABLE [schema.]tabla
       * El nombre de la tabla
       * Y para las columnas: Nombre, tipo de dato (datatype) y tamaño.
       
+Ejemplo de creación emoji
+
+```sql
+CREATE SCHEMA 
+```      
  
 
