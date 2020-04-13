@@ -31,5 +31,6 @@ CREATE TABLE [schema.]tabla
   * Se ha de especificar:
       * El nombre de la tabla
       * Y para las columnas: Nombre, tipo de dato (datatype) y tamaño.
+      
  
 
