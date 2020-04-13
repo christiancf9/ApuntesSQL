@@ -17,27 +17,18 @@ Estos objetos tienen un acceso directo al esquema del propietario. Debajo una li
 Uno de los primero(s) pasos a la hora de crear una BBDD, es crear las tablas que almacenarán los datos de una organización. Independientemente del tamaño y complejidad de una base de datos, cada una de estas se compone de **tablas**.
 
   ***
-``CREACIÓN`` de una tabla
+CREATE
 
-Sintáxis
+La consula ``CREATE`` es usada para crear una base de datos u objetos, tales como tablas, vistas, almacenamientos procesados, etc
 
-```sql
-CREATE TABLE [schema.]tabla
-          ( { columna tipo_de_dato [expresion por defecto] [restriccion de columna CONSTRAINT] ... 
-            | restriccion_tabla} 
-         [, { column datatype [DEFAULT expression] [restriccion de columna CONSTRAINT] ... 
-            | restriccion_tabla} ]...) 
-         [AS subconsulta]
-```
-  * Es imprescindible tener como privilegio ``CREATE TABLE``.
-  * Se ha de especificar:
-      * El nombre de la tabla
-      * Y para las columnas: Nombre, tipo de dato (datatype) y tamaño.
-      
-Ejemplo de creación emoji
+  
+  
+Creando una base de datos (BBDD)
 
-```sql
-CREATE SCHEMA 
-```      
+El ejemplo siguiente demuestra como la consulta ``CREATE`` puede ser usada para crear una base de datos.
+``CREATE DATABASE LibreriaDB``
+
+
+ 
  
 
