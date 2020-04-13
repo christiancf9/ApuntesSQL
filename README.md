@@ -2,12 +2,12 @@
 
 ![Imagen SQL](./imagenes/sql.jpg)
 
-[VARIANTES SQL](./SQL_y_sus_variantes.md)
+✔ [VARIANTES SQL](./SQL_y_sus_variantes.md)
 
-[DATA TYPE](./Tipos_de_datos.md)
+✔ [DATA TYPE](./Tipos_de_datos.md)
 
-[SQL - DQL](./SQL_DQL.md)
+✔ [SQL - DQL](./SQL_DQL.md)
 
-[SQL - DDL](./SQL_DDL.md)
+✔ [SQL - DDL](./SQL_DDL.md)
 
-[SQL - DML](./SQL_DML.md)
+✔ [SQL - DML](./SQL_DML.md)
