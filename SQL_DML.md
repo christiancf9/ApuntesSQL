@@ -31,8 +31,13 @@ El orden en que se les asignen los valores en ``VALUES`` tiene que coincidir el 
   > Para guardar los datos, usaremos la sentencia ``COMMIT``
   > Para cancelar lo que hayamos insertado, usaremos la sentencia ``ROLLBACK``
 
-Ejemplo 👇
+Ejemplos 👇
 ```sql
 INSERT INTO EDADES
 VALUES (1,'WILSON');
+```
+
+```sql
+INSERT INTO PAQUETES (CODPEDIDO,ESTADO)
+VALUES (130,1);
 ```
