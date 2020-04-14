@@ -35,11 +35,11 @@ CREANDO UNA TABLA
 
 La consulta ``CREATE`` también es usada para añadir tablas en una BBDD existentes, tal y como muestra este script 👇
 
-```sql CREATE TABLE Books
+```sql CREATE TABLE Libros
 (
-Id INT PRIMARY KEY IDENTITY(1,1),
-Name VARCHAR (50) NOT NULL,
-Price INT
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    Name VARCHAR (50) NOT NULL,
+    Precio CHAR(10)
 ```
 
  
