@@ -106,3 +106,5 @@ A partir del campo de datos anterior, ya podemos crear nuestros propios dominios
 CREATE DOMAIN <nombreTipoDato> CHAR(10);
 ```
 Una vez realizado lo anterior, podremos usar este dominio para la creación de tablas y asignaciones de dominios a los atributos...
+
+** RESTRINGIENDO LOS ATRIBUTOS ** - [``CONSTRAINTS``]
