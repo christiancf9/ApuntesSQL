@@ -96,7 +96,6 @@ CREATE TABLE Libros (
 <!-- Tabla de datos -->
 
 ## CREANDO UN DOMINIO - [CREATE DOMAIN]
-***
 A partir del campo de datos anterior, ya podemos crear nuestros propios dominios 👇
 
 ```sql
