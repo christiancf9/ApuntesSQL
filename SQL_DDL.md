@@ -18,12 +18,12 @@ Estos objetos tienen un acceso directo al esquema del propietario. Debajo una li
 Uno de los primero(s) pasos a la hora de crear una BBDD, es crear las tablas que almacenarán los datos de una organización. Independientemente del tamaño y complejidad de una base de datos, cada una de estas se compone de **tablas**.
 
 ***
-## INDICE <a name="INDICE"></a>
+# INDICE <a name="INDICE"></a>
 1. ⚡ [DDL - CREATE](#ddl_create)
 2. ⚡ [DDL - ALTER](#ddl_alter)
 3. ⚡ [DDL - DROP](#ddl_drop)
 ***
-## CREATE <a name="ddl_create"></a>
+# CREATE <a name="ddl_create"></a>
 
 La consula ``CREATE`` es usada para crear una base de datos u objetos, tales como tablas, vistas, almacenamientos procesados, etc.
 
@@ -203,7 +203,7 @@ Titulos CHAR UNIQUE NOT NULL,
 ...
 );
 ```
-## Modificación - [``ALTER``]
+## Modificación - [``ALTER``] <a name="ddl_alter"></a>
 Instrucción utilizada para modificar columnas, tablas y restricciones. 
   > ``ALTER`` también nos permite renombrar ciertos elementos y vincular tablas de una base de datos a otra...
   
@@ -215,7 +215,7 @@ ALTER TABLE [IF EXISTS] grecia
             [ADD | DROP [COLUMN | CONSTRAINT] atenas]
             
 ```
-## Eliminación  - [``DROP``]
+## Eliminación  - [``DROP``] <a name="ddl_drop"></a>
 Instrucción utilizada para borrar una BBDD y/o una tabla. Ejemplos 👇
 ```sql
 DROP SCHEMA [IF EXISTS] langostasDB;
