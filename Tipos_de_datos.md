@@ -66,3 +66,24 @@ EXISTS            Devuelve TRUE si el resultado de la sub_consulta devuelve resu
 IN                Comprueba un campo si este se encuentra en determinado rango
 
 
+### Tabla con sus tipos, categorías y definiciones...
+<!-- Tabla de datos -->
+| TIPO DE DATO  | CATEGORÍA |                             DEFINICIÓN                                                   |             
+|---------------|-----------|------------------------------------------------------------------------------------------|
+| INTEGER       | Numérico  | Es un número entero y a su vez el más empleado                                           |
+| DECIMAL       | Numérico  | Es un núm. preciso. 131070 dígitos (antes de la coma) y 16385 dígitos (desp. de la coma) |               
+| REAL          | Numérico  | Es nu número no preciso.                                                                 |
+| CHAR          | Texto     | Longitud total y fija limitada                                                           |
+| VARCHAR       | Texto     | Longitud variable                                                                        |
+| TEXT          | Texto     | Longitud ilimitada variable                                                              |
+| DATE          | Fecha     | La fecha del día. Usa 4 BYTES                                                            |
+| TIME          | Fecha     | La hora del día. Usa 8 BYTES                                                             |
+| TIMESTAMP     | Fecha     | La fecha y hora del día. Es una combinación de ``DATE`` + ``TIME``                       |
+| BOOLEAN       | Booleano  | Indica si un valor es ``TRUE`` **OR** ``FALSE``. También puede ser ``NOT NULL``          |
+| MONEY         | Dinero    | Número de precisión limitada. Hasta '4' cifras decimales. Se usa con **SUM**             |
+| UUID          | OS        | Identificador universal único                                                            |
+| JSON          | Fichero   | JavaScript Object Notation                                                               |
+| XML           | Fichero   | Extensible Markup Language                                                               |    
+| CIDR          | Network   | Direcciones IPV4 e IPV6. No permite bits distintos a '0' a la derecha de la máscara      |
+| INET          | Network   | Direcciones IPV4 e IPV6.                                                                 |
+<!-- Tabla de datos -->
