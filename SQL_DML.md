@@ -62,10 +62,16 @@ SELECT CODPEDIDO+75,ESTADO,NOMAPELLIDO FROM PAQUETES WHERE CODPEDIDO IN (0,1,2);
 
 La consula ``UPDATE`` es usada para actualizar valores, en una o varias columnas (para un subconjunto de tuplas de una tabla).
 
+Ejemplos (Sintáxis y Prueba): 👇 
 
 ```sql
   UPDATE <tablaEjemplo>
   SET <atributo1> = <ejemploValor1>, <columna2> = <ejemploValor2>, <columna3> = <ejemploValor3>...
   [WHERE <predicado>];
+```
 
+```sql
+  UPDATE esparta
+  SET pais = 'Grecia', anho = 480, lider = 'Leonidas'
+  [WHERE pais = 'Grecia'];
 ```
