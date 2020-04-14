@@ -75,7 +75,7 @@ CREATE TABLE Libros (
             PRIMARY KEY (Precio)
 );
 ```
-##
+###
 **Tipos de datos - Dominios**
 ------------------------------------------------------------------------------------------------------------------------
 | TIPO DE DATO  | CATEGORÍA |                             DEFINICIÓN                                                   |             
@@ -97,4 +97,4 @@ CREATE TABLE Libros (
 | CIDR          | Network   | Direcciones IPV4 e IPV6. No permite bits distintos a '0' a la derecha de la máscara      |
 | INET          | Network   | Direcciones IPV4 e IPV6.                                                                 |
 ------------------------------------------------------------------------------------------------------------------------
-##
+###
