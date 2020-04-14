@@ -158,7 +158,9 @@ CREATE TABLE Libreria2 (
   cantidadTomosGrandes    dominio_ejemplo2 REFERENCES Libreria1 (cantidadLibrosPequenhos)
 );
 ```
-⚡ [DDL - INDEX](#ddl_index)
+
+👁 [DDL - INDEX](#ddl_index)
+
 **Método extenso**
 
 ```sql
