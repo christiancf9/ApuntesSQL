@@ -12,7 +12,7 @@
 
 ✔ [SQL - DML](./SQL_DML.md)
 
-✔ [INSTALACIÓN - MYSQL / MARIADB]("https://gist.github.com/christiancf9/2d4452556ae7fbd1514f65af6360619b")
+✔ [<a="https://gist.github.com/christiancf9/2d4452556ae7fbd1514f65af6360619b" INSTALACIÓN - MYSQL / MARIADB</a>]
 
 ✔ [CREACIÓN BBDD - MYSQL / MARIADB](./Instalacion_MySQL_MariaDB.sql)
 
