@@ -38,7 +38,8 @@ Varchar --> Igual al char, salvo que este, almacena los bytes en el valor campo
 4. Concatenación
    - (+)
    
-                                                Funciones Agregadas                     
+   
+                                              Funciones Agregadas                     
                      
 MAX()   -->  Devuelve el valor máximo
 
@@ -65,7 +66,7 @@ EXISTS            Devuelve TRUE si el resultado de la sub_consulta devuelve resu
 
 IN                Comprueba un campo si este se encuentra en determinado rango
 
-                                              TABLA de DATOS SQL
+                                               TABLA de DATOS SQL
 ### Tabla con sus tipos, categorías y definiciones...
 <!-- Tabla de datos -->
 | TIPO DE DATO  | CATEGORÍA |                             DEFINICIÓN                                                   |             
