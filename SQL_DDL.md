@@ -108,9 +108,13 @@ CREATE DOMAIN <nombreTipoDato> CHAR(10);
 Una vez realizado lo anterior, podremos usar este dominio para la creación de tablas y asignaciones de dominios a los atributos...
 
 **AÑADIENDO RESTRICCIONES A ATRIBUTOS** - [``CONSTRAINTS``]
+
 Una restricción es un método para especificar/establecer las:
-- Primary key
-- Foreign Key
-- Unique
-- Not Null
-- Check
+
+- PRIMARY KEY
+- FOREIGN KEY
+- UNIQUE
+- NOT NULL
+- CHECK
+
+Se utilizan con el ``CREATE TABLE`` y con el ``ALTER TABLE``.
