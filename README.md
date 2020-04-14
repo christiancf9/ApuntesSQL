@@ -14,6 +14,6 @@
 
 ✔ [INSTALACIÓN - MYSQL / MARIADB](https://gist.github.com/christiancf9/2d4452556ae7fbd1514f65af6360619b) 
 
-✔ [CREACIÓN BBDD - MYSQL / MARIADB](https://gist.github.com/christiancf9/64a1f0d2bfb3cfd286ff863237184016) 
+🔒 [CREACIÓN BBDD - MYSQL / MARIADB] 
 
-✔ [COMANDOS ÚTILES - MYSQL / MARIADB](https://gist.github.com/christiancf9/ef88bf654ff6297d1e27d320408683cc)
+🔒 [COMANDOS ÚTILES - MYSQL / MARIADB]
