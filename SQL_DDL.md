@@ -17,6 +17,10 @@ Estos objetos tienen un acceso directo al esquema del propietario. Debajo una li
 Uno de los primero(s) pasos a la hora de crear una BBDD, es crear las tablas que almacenarán los datos de una organización. Independientemente del tamaño y complejidad de una base de datos, cada una de estas se compone de **tablas**.
 
 ***
+## INDICE <a name="INDICE"></a>
+⚡ [DDL - CREATE](#ddl_create)
+⚡ [DDL - ALTER] (#ddl_alter)
+⚡ [DDL - DROP] (#ddl_drop)
 ***
 ## CREATE
 
