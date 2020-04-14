@@ -57,7 +57,7 @@ CREATE TABLE Libros (
     Precio CHAR(10)
 );
 ```
-## AÑADIENDO ATRIBUTOS
+### AÑADIENDO ATRIBUTOS
 
 - Más adelante, veremos que a la hora de declarar atributos, podemos aplicar ciertas RESTRICCIONES (**CONSTRAINT**)
 
@@ -73,7 +73,7 @@ CREATE TABLE Libros (
 );
 ```
 
-## Tipos de datos - Dominios
+### Tipos de datos - Dominios
 <!-- Tabla de datos -->
 | TIPO DE DATO  | CATEGORÍA |                             DEFINICIÓN                                                   |             
 |---------------|-----------|------------------------------------------------------------------------------------------|
@@ -95,7 +95,7 @@ CREATE TABLE Libros (
 | INET          | Network   | Direcciones IPV4 e IPV6.                                                                 |
 <!-- Tabla de datos -->
 
-## CREANDO UN DOMINIO
+## CREANDO UN DOMINIO - [CREATE DOMAIN]
 ***
 A partir del campo de datos anterior, ya podemos crear nuestros propios dominios 👇
 
