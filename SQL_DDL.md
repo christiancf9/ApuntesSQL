@@ -18,7 +18,7 @@ Uno de los primero(s) pasos a la hora de crear una BBDD, es crear las tablas que
 
 ***
 ***
-CREATE
+# CREATE
 
 La consula ``CREATE`` es usada para crear una base de datos u objetos, tales como tablas, vistas, almacenamientos procesados, etc
 
