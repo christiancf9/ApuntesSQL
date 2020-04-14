@@ -32,7 +32,7 @@ El ejemplo siguiente demuestra como la consulta ``CREATE`` puede ser usada para 
 ```sql
 CREATE DATABASE LibreriaDB [IF NOT EXISTS] <nombreBBDD>
                            [CHARACTER SET <nombreCharset>] 
-                           [COLLATE <nombreCollate>]
+                           [COLLATE <nombreCollate>];
 ```
 
 Otro ejemplo
@@ -40,7 +40,7 @@ Otro ejemplo
 ```sql
 CREATE SCHEMA LibreriaDB [IF NOT EXISTS] <nombreBBDD>
                          [CHARACTER SET <nombreCharset>] 
-                         [COLLATE <nombreCollate>]
+                         [COLLATE <nombreCollate>];
 ```
 
 NOTA: La diferencia es inexistente en MySQL, pero no en PostgreSQL, donde ``SCHEMA`` añade atributos de permiso. En la práctica se aconseja usar ``SCHEMA``
@@ -59,7 +59,22 @@ La consulta ``CREATE`` también es usada para añadir tablas en una BBDD existen
     Id INT PRIMARY KEY IDENTITY(1,1),
     Name VARCHAR (50) NOT NULL,
     Precio CHAR(10)
+);
 ```
+**AÑADIENDO ATRIBUTOS**
 
+- Más adelante, veremos que a la hora de declarar atributos, podemos aplicar ciertas RESTRICCIONES (**CONSTRAINT**)
+
+Ejemplo
+```sql CREATE TABLE Libros
+(
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    Name VARCHAR (50) NOT NULL,
+    Precio CHAR(10)
+    
+    CONSTRAINT PK_Libros
+            PRIMARY KEY (Precio)
+);
+```
  
 
