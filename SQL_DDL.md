@@ -56,8 +56,7 @@ La consulta ``CREATE`` también es usada para añadir tablas en una BBDD existen
 
 ```sql 
 CREATE TABLE Libros (
-    Id INT PRIMARY KEY IDENTITY(1,1),
-    Name VARCHAR (50) NOT NULL,
+    Nombre VARCHAR (50) NOT NULL,
     Precio CHAR(10)
 );
 ```
@@ -69,7 +68,7 @@ Ejemplo
 ```sql 
 CREATE TABLE Libros (
     Id INT PRIMARY KEY IDENTITY(1,1),
-    Name VARCHAR (50) NOT NULL,
+    Nombre VARCHAR (50) NOT NULL,
     Precio CHAR(10)
     
     CONSTRAINT PK_Libros
