@@ -23,7 +23,7 @@ La consula ``CREATE`` es usada para crear una base de datos u objetos, tales com
 
   
   
-**Creando una base de datos (BBDD)**
+**CREANDO UNA BBDD - [CREATE DATABASE | SCHEMA]**
 ***
 
 El ejemplo siguiente demuestra como la consulta ``CREATE`` puede ser usada para crear una base de datos.
@@ -40,7 +40,7 @@ CREATE SCHEMA LibreriaDB
 
 NOTA: La diferencia es inexistente en MySQL, pero no en SQL Server, donde ``SCHEMA`` añade atributos de permiso...
 
-**CREANDO UNA TABLA**
+**CREANDO UNA TABLA - [CREATE TABLE]**
 
 La consulta ``CREATE`` también es usada para añadir tablas en una BBDD existentes, tal y como muestra este script 👇
 
