@@ -199,6 +199,8 @@ Titulos CHAR UNIQUE NOT NULL,
 );
 ```
 ## Modificación - [``ALTER``]
+
+
 ## Eliminación  - [``DROP``]
 Instrucción utilizada para borrar una BBDD y/o una tabla. Ejemplos 👇
 ```sql
