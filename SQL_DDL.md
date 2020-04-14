@@ -18,11 +18,11 @@ Uno de los primero(s) pasos a la hora de crear una BBDD, es crear las tablas que
 
 ***
 ## INDICE <a name="INDICE"></a>
-1. ⚡ [DDL - CREATE](#ddl_create)
-2. ⚡ [DDL - ALTER] (#ddl_alter)
-3. ⚡ [DDL - DROP] (#ddl_drop)
+1. ⚡ [DDL - CREATE] (#ddl_create)
+2. ⚡ [DDL - ALTER]  (#ddl_alter)
+3. ⚡ [DDL - DROP]   (#ddl_drop)
 ***
-## CREATE
+## CREATE <a name="ddl_create"></a>
 
 La consula ``CREATE`` es usada para crear una base de datos u objetos, tales como tablas, vistas, almacenamientos procesados, etc.
 
