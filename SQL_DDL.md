@@ -96,5 +96,4 @@ CREATE TABLE Libros (
 | XML           | Fichero   | Extensible Markup Language                                                               |    
 | CIDR          | Network   | Direcciones IPV4 e IPV6. No permite bits distintos a '0' a la derecha de la máscara      |
 | INET          | Network   | Direcciones IPV4 e IPV6.                                                                 |
-------------------------------------------------------------------------------------------------------------------------
 ###
