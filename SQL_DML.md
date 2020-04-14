@@ -65,7 +65,7 @@ La consula ``UPDATE`` es usada para actualizar valores, en una o varias columnas
 
 ```sql
   UPDATE <tablaEjemplo>
-  SET <atributo1> = <ejemploValor1>, <columna2> = <ejemploValor2>, <columna3> = <ejemploValor2>...
+  SET <atributo1> = <ejemploValor1>, <columna2> = <ejemploValor2>, <columna3> = <ejemploValor3>...
   [WHERE <predicado>];
 
 ```
