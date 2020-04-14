@@ -18,9 +18,9 @@ Uno de los primero(s) pasos a la hora de crear una BBDD, es crear las tablas que
 
 ***
 ## INDICE <a name="INDICE"></a>
-⚡ [DDL - CREATE](#ddl_create)
-⚡ [DDL - ALTER] (#ddl_alter)
-⚡ [DDL - DROP] (#ddl_drop)
+1. ⚡ [DDL - CREATE](#ddl_create)
+2. ⚡ [DDL - ALTER] (#ddl_alter)
+3. ⚡ [DDL - DROP] (#ddl_drop)
 ***
 ## CREATE
 
