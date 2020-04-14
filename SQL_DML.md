@@ -86,13 +86,13 @@ La consula ``DELETE`` es usada para eliminar fila(s) de una o varias tablas. En 
 Ejemplos (Sintáxis y Prueba): 👇 
 
 ```sql
-DELETE FROM <ejemploTABLA> 
-[WHERE <filaOPCIONAL>];
+  DELETE FROM <ejemploTABLA> 
+  [WHERE <filaOPCIONAL>];
 ```
 
 ```sql
-DELETE FROM grecia 
-[WHERE faccion = 'Esparta'];
+  DELETE FROM grecia 
+  WHERE pais = 'Grecia';
 ```
 
 🛡 IMPORTANTE: Si no usamos la sentencia ``WHERE``, haremos que los cambios se efectuen en **TODAS** las *TUPLAS*. En este caso, si se omitiese, se ~~borrarían~~ todas las tuplas...
