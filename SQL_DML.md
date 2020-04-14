@@ -89,4 +89,10 @@ Ejemplos (Sintáxis y Prueba): 👇
 DELETE FROM <ejemploTABLA> 
 [WHERE <filaOPCIONAL>];
 ```
+
+```sql
+DELETE FROM grecia 
+[WHERE faccion = 'Esparta'];
+```
+
 🛡 IMPORTANTE: Si no usamos la sentencia ``WHERE``, haremos que los cambios se efectuen en **TODAS** las *TUPLAS*. En este caso, si se omitiese, se ~~borrarían~~ todas las tuplas...
