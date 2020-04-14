@@ -198,4 +198,9 @@ Titulos CHAR UNIQUE NOT NULL,
 ...
 );
 ```
+[ÍNDICE](#INDICE)
+
 ## DROP
+Instrucción utilizada para borrar una BBDD y/o una tabla. Ejemplos 👇
+
+> Mediante *IF EXISTS*, si la BBDD no existe, este solamente nos devolvería **``FALSE``** 
