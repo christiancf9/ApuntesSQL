@@ -115,3 +115,24 @@ Una restricción es un método para especificar/establecer las:
 - CHECK
 
 Se utilizan con el ``CREATE TABLE`` y con el ``ALTER TABLE``.
+
+### PRIMARY KEY
+
+Establece cual es la clave principal de una tabla. Esta establece que según las reglas de E/R, las claves no pueden ser nulas y sus valores no pueden repetirse...
+
+**Método simplificado**
+```sql
+CREATE TABLE Libreria (
+  cantidadLibros INT PRIMARY KEY
+);
+```
+
+**Método extenso**
+```sql
+CREATE TABLE Libreria (
+  cantidadLibros INT,
+  tomos CHAR(5),
+  ...
+  PRIMARY KEY (cantidadLibros)[, tomos, ..., ...])
+);
+```
