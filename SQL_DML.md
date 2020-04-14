@@ -8,7 +8,7 @@ Una agrupación de instrucciones DML, que se ejecutan consecutivamente, se denom
 
   > Esta opera sobre los objetos en una base de datos, es decir sobre su estructura
 
-Veremos más adelante, ejemplos de su uso... 👇
+Veremos más adelante, ejemplos de su uso... ✌
   > Para guardar los datos, usaremos la sentencia ``COMMIT``
   > Para cancelar lo que hayamos insertado, usaremos la sentencia ``ROLLBACK``
 ***
