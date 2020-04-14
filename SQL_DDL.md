@@ -172,3 +172,4 @@ CREATE TABLE Libreria2 (
     ON UPDATE [CASCADE | NO ACTION | SET NULL | SET DEFAULT <valorporDefecto>]
 );
 ```
+🛡 NOTA: El único valor que **NO** puse a mano, fue el "valorporDefecto", tanto en el <ON DELETE> como en el <ON UPDATE>.
