@@ -41,4 +41,17 @@ VALUES (1,'WILSON');
 INSERT INTO PAQUETES (CODPEDIDO,ESTADO)
 VALUES (130,1);
 ```
-### SENTENCIA INSERT CON MÚLTIPLES FILAS
+### SENTENCIA INSERT CON MÚLTIPLES FILAS [``INSERT`` + ``SELECT``]
+En este caso, para introducir un sub-conjunto de fila(s) de una tabla dentro de otra, se escribe solamente una sentencia ``INSERT`` y una sentencia ``SUBSELECT`` interna (es decir, dentro de ella...) Ejemplo:
+
+```sql
+INSERT INTO tabla1 (columna1, columna2, columna3...)
+SELECT ([sentencia SELECT]);
+```
+
+```sql
+INSERT INTO PAQUETES (CODPEDIDO,ESTADO,NOMAPELLIDO)
+SELECT CODPEDIDO+75,ESTADO,NOMAPELLIDO FROM PAQUETES WHERE CODPEDIDO IN (0,1,2);
+```
+  > Referencia a las columnas los valores que han sido recuperados mediante la sentencia ``SELECT``.
+  > Añade en la tabla en su totalidad, las filas que se recuperen mediante la sentencia ``SELECT``.
