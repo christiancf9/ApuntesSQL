@@ -199,8 +199,17 @@ Titulos CHAR UNIQUE NOT NULL,
 );
 ```
 ## Modificación - [``ALTER``]
-
-
+Instrucción utilizada para modificar columnas, tablas y restricciones. 
+  > ``ALTER`` también nos permite renombrar ciertos elementos y vincular tablas de una base de datos a otra...
+  
+```sql 
+ALTER TABLE [IF EXISTS] grecia
+            [RENAME TO  esparta],
+            [RENAME [COLUMN | CONSTRAINT] focida TO cefalonia]
+            [SET SCHEMA persia],
+            [ADD | DROP [COLUMN | CONSTRAINT] atenas]
+            
+```
 ## Eliminación  - [``DROP``]
 Instrucción utilizada para borrar una BBDD y/o una tabla. Ejemplos 👇
 ```sql
