@@ -203,7 +203,7 @@ Titulos CHAR UNIQUE NOT NULL,
 ...
 );
 ```
-## Modificación - [``ALTER``] <a name="ddl_alter"></a>
+# Modificación - [``ALTER``] <a name="ddl_alter"></a>
 Instrucción utilizada para modificar columnas, tablas y restricciones. 
   > ``ALTER`` también nos permite renombrar ciertos elementos y vincular tablas de una base de datos a otra...
   
@@ -215,7 +215,7 @@ ALTER TABLE [IF EXISTS] grecia
             [ADD | DROP [COLUMN | CONSTRAINT] atenas]
             
 ```
-## Eliminación  - [``DROP``] <a name="ddl_drop"></a>
+# Eliminación  - [``DROP``] <a name="ddl_drop"></a>
 Instrucción utilizada para borrar una BBDD y/o una tabla. Ejemplos 👇
 ```sql
 DROP SCHEMA [IF EXISTS] langostasDB;
