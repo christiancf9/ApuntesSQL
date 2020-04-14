@@ -175,7 +175,7 @@ CREATE TABLE Libreria2 (
 🛡 NOTA: El único valor que **NO** puse a mano, fue el "valorporDefecto", tanto en el 'ON DELETE' como en el 'ON UPDATE'.
 
 - VALORES de ``ON DELETE`` y ``ON UPDATE``.
-  - CASCADE  --> Mediante esta opción, si el atributo al que hace referencia se modifica o elimina, este también modifica o elimina las claves ajenas.
-  - NO ACTION
-  - SET NULL
-  - SET DEFAULT
+  - CASCADE     -> Mediante esta opción, si el atributo al que hace referencia se modifica o elimina, este también modifica o elimina las claves ajenas.
+  - NO ACTION   -> 
+  - SET NULL    ->
+  - SET DEFAULT ->
