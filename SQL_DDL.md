@@ -18,11 +18,11 @@ Uno de los primero(s) pasos a la hora de crear una BBDD, es crear las tablas que
 
 ***
 ***
-# CREATE
+## CREATE
 
 La consula ``CREATE`` es usada para crear una base de datos u objetos, tales como tablas, vistas, almacenamientos procesados, etc.
 
-## CREANDO UNA BBDD - [``CREATE DATABASE`` | ``CREATE SCHEMA``]
+### CREANDO UNA BBDD - [``CREATE DATABASE`` | ``CREATE SCHEMA``]
 
 El ejemplo siguiente demuestra como la consulta ``CREATE`` puede ser usada para crear una base de datos.
 
@@ -47,7 +47,7 @@ NOTA: La diferencia es inexistente en MySQL, pero no en PostgreSQL, donde ``SCHE
 - `COLLATE`: Este campo es opcional. Junto a CHARACTER_SET, establece la variante específica global Ejemplo: utf8_unicode_ci
 
 
-## CREANDO UNA TABLA - [CREATE TABLE]
+### CREANDO UNA TABLA - [CREATE TABLE]
 
 La consulta ``CREATE`` también es usada para añadir tablas en una BBDD existentes, tal y como muestra este script 👇
 
@@ -95,7 +95,7 @@ CREATE TABLE Libros (
 | INET          | Network   | Direcciones IPV4 e IPV6.                                                                 |
 <!-- Tabla de datos -->
 
-## CREANDO UN DOMINIO - [CREATE DOMAIN]
+### CREANDO UN DOMINIO - [CREATE DOMAIN]
 A partir del campo de datos anterior, ya podemos crear nuestros propios dominios 👇
 
 ```sql
@@ -103,7 +103,7 @@ CREATE DOMAIN <nombreTipoDato> CHAR(10);
 ```
 Una vez realizado lo anterior, podremos usar este dominio para la creación de tablas y asignaciones de dominios a los atributos...
 
-## AÑADIENDO RESTRICCIONES A ATRIBUTOS - [``CONSTRAINTS``]
+### AÑADIENDO RESTRICCIONES A ATRIBUTOS - [``CONSTRAINTS``]
 
 Una restricción es un método para especificar/establecer las:
 
