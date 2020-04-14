@@ -179,3 +179,5 @@ CREATE TABLE Libreria2 (
   - NO ACTION   -> Mediante esta opción, si el atributo al que hace referencia se modifica o elimina, este no realiza nada. 🤐
   - SET NULL    -> Mediante esta opción, si el atributo al que hace referencia se modifica o elimina, los valores de las claves ajenas se ponen todas a **NULL**.
   - SET DEFAULT -> Mediante esta opción, si el atributo al que hace referencia se modifica o elimina, los valores de las claves ajenas se reestablecen por completo.
+
+### CHECK
