@@ -79,7 +79,7 @@ CREATE TABLE Libros (
 **Tipos de datos - Dominios**
 
 | TIPO DE DATO  | CATEGORÍA |                             DEFINICIÓN                                                   |             
-|---------------|------------------------------------------------------------------------------------------------------|
+|---------------|-----------|------------------------------------------------------------------------------------------|
 | INTEGER       | Numérico  | Es un número entero y a su vez el más empleado                                           |
 | DECIMAL(n,m)  | Numérico  | Es un núm. preciso. 131070 dígitos (antes de la coma) y 16385 dígitos (desp. de la coma) |               
 | REAL          | Numérico  | Es nu número no preciso.                                                                 |
