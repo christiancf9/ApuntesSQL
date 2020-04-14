@@ -52,7 +52,7 @@ COUNT() -->  Nº de filas que cumplan la condición
 AVG()   -->  Promedio de los valores de un campo
 
 
-                                                    Predicados SQL
+                                                      Predicados SQL
                                             
 BETWEEN ... AND   Revisa que el valor está dentro de un intervalo
 
