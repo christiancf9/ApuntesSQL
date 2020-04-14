@@ -8,19 +8,7 @@ Una agrupación de instrucciones DML, que se ejecutan consecutivamente, se denom
 
   > Esta opera sobre los objetos en una base de datos, es decir sobre su estructura
 
-Un esquema es la colección de múltiples objetos de una BBDD, que son conocidos como objetos de un esquema.
-
-Estos objetos tienen un acceso directo al esquema del propietario. Debajo una lista con la enumeración de objetos de un esquema 👇
-
-
-
-  * Tabla     --> Para el almacenamiento de datos
-  * Vista     --> Para proyectar datos en un formato deseado desde una o más tablas
-  * Secuencia --> Para generar valores númericos
-  * Índice    --> Para mejorar el rendimiento de las consultas en tablas.
-  * Sinónimo  --> Nombre similar/alternativo de un objeto
-  
-Uno de los primero(s) pasos a la hora de crear una BBDD, es crear las tablas que almacenarán los datos de una organización. Independientemente del tamaño y complejidad de una base de datos, cada una de estas se compone de **tablas**.
+Veremos más adelante, ejemplos de su uso...
 
 ***
 # INDICE <a name="INDICE"></a>
@@ -28,9 +16,17 @@ Uno de los primero(s) pasos a la hora de crear una BBDD, es crear las tablas que
 2. ⚡ [DML - UPDATE](#dml_update)
 3. ⚡ [DDL - DELETE](#dml_delete)
 ***
-# INSERT <a name="ddl_create"></a>
+# INSERT <a name="dml_insert"></a>
 
-La consula ``CREATE`` es usada para crear una base de datos u objetos, tales como tablas, vistas, almacenamientos procesados, etc.
+La consula ``INSERT`` es usada para añadir filas a una tabla
+
+
+```sql
+  INSERT INTO <ejemploTabla> [ (atributo1, atributo2] 
+  VALUES (<valor1>, <valor2>)
+
+
+```
 
 ### CREANDO UNA BBDD - [``CREATE DATABASE`` | ``CREATE SCHEMA``]
 
