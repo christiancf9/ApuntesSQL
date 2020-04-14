@@ -47,7 +47,7 @@ NOTA: La diferencia es inexistente en MySQL, pero no en PostgreSQL, donde ``SCHE
 - `COLLATE`: Este campo es opcional. Junto a CHARACTER_SET, establece la variante específica global Ejemplo: utf8_unicode_ci
 
 
-### CREANDO UNA TABLA - [CREATE TABLE]
+### CREANDO UNA TABLA - [``CREATE TABLE``]
 
 La consulta ``CREATE`` también es usada para añadir tablas en una BBDD existentes, tal y como muestra este script 👇
 
