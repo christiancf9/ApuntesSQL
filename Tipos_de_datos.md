@@ -37,10 +37,9 @@ Varchar --> Igual al char, salvo que este, almacena los bytes en el valor campo
               
 4. Concatenación
    - (+)
-   
-   
-                                              Funciones Agregadas                     
-                     
+
+                                                   Funciones Agregadas
+
 MAX()   -->  Devuelve el valor máximo
 
 MIN()   -->  Devuelve el valor mínimo
@@ -52,7 +51,7 @@ COUNT() -->  Nº de filas que cumplan la condición
 AVG()   -->  Promedio de los valores de un campo
 
 
-                                                Predicados SQL
+                                                    Predicados SQL
                                             
 BETWEEN ... AND   Revisa que el valor está dentro de un intervalo
 
