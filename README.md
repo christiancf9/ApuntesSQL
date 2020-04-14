@@ -12,7 +12,7 @@
 
 ✔ [SQL - DML](./SQL_DML.md)
 
-✔ [INSTALACIÓN - MYSQL / MARIADB](./Instalacion_MySQL_MariaDB.sql)
+✔ [INSTALACIÓN - MYSQL / MARIADB](""Instalacion_MySQL_MariaDB.sql)
 
 ✔ [CREACIÓN BBDD - MYSQL / MARIADB](./Instalacion_MySQL_MariaDB.sql)
 
