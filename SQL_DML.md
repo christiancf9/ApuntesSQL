@@ -16,7 +16,7 @@ Veremos más adelante, ejemplos de su uso... ✌
 # INDICE <a name="INDICE"></a>
 1. ⚡ [DML - INSERT](#dml_insert)
 2. ⚡ [DML - UPDATE](#dml_update)
-3. ⚡ [DDL - DELETE](#dml_delete)
+3. ⚡ [DML - DELETE](#dml_delete)
 ***
 ## INSERT <a name="dml_insert"></a>
 
@@ -79,7 +79,7 @@ Ejemplos (Sintáxis y Prueba):
   WHERE pais = 'Grecia';
 ```
 
-## DELETE <a name="dml_update"></a>
+## DELETE <a name="dml_delete"></a>
 
 La consula ``DELETE`` es usada para eliminar filas de una o varias tablas. En ella se debe especificar, al menos la tabla, y después mediante la sentencia ``WHERE``, las filas que queramos eliminar.
 
