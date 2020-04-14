@@ -12,6 +12,8 @@
 
 ✔ [SQL - DML](./SQL_DML.md)
 
-<!-- ✔ [MYSQL / MARIADB](./Instalacion_MySQL_MariaDB.sql) -->
+✔ [INSTALACIÓN - MYSQL / MARIADB](./Instalacion_MySQL_MariaDB.sql)
 
-✔ [MYSQL / MARIADB] {% gist 2d4452556ae7fbd1514f65af6360619b %}
+✔ [CREACIÓN BBDD - MYSQL / MARIADB](./Instalacion_MySQL_MariaDB.sql)
+
+✔ [COMANDOS ÚTILES - MYSQL / MARIADB](./Instalacion_MySQL_MariaDB.sql)
