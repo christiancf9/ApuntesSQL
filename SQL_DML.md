@@ -71,12 +71,12 @@ Ejemplos (Sintáxis y Prueba):
 ```
 
 ```sql
-  UPDATE esparta
+  UPDATE grecia
   SET ( 
     pais = 'Grecia',
     anho = 480, 
     lider = 'Leonidas')
-  WHERE pais = 'Grecia';
+  WHERE faccion = 'Esparta';
 ```
 
 ## DELETE <a name="dml_delete"></a>
