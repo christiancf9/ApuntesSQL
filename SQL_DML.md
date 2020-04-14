@@ -22,7 +22,7 @@ La consula ``INSERT`` es usada para añadir filas a una tabla
 
 
 ```sql
-  INSERT INTO <nombre-tabla> [ (atributo1, atributo2] 
+  INSERT INTO <nombre-tabla> [ (<ejemploAtributo1>, <ejemploAtributo2>] 
   VALUES (<valor1>, <valor2>)
 
 ```
@@ -31,3 +31,8 @@ El orden en que se les asignen los valores en ``VALUES`` tiene que coincidir el 
   > Para guardar los datos, usaremos la sentencia ``COMMIT``
   > Para cancelar lo que hayamos insertado, usaremos la sentencia ``ROLLBACK``
 
+Ejemplo 👇
+```sql
+INSERT INTO EDADES
+VALUES (1,'WILSON');
+```
