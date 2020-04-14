@@ -9,6 +9,8 @@ Una agrupación de instrucciones DML, que se ejecutan consecutivamente, se denom
   > Esta opera sobre los objetos en una base de datos, es decir sobre su estructura
 
 Veremos más adelante, ejemplos de su uso... 👇
+  > Para guardar los datos, usaremos la sentencia ``COMMIT``
+  > Para cancelar lo que hayamos insertado, usaremos la sentencia ``ROLLBACK``
 ***
 ***
 # INDICE <a name="INDICE"></a>
@@ -28,8 +30,7 @@ La consula ``INSERT`` es usada para añadir filas a una tabla
 ```
 
 El orden en que se les asignen los valores en ``VALUES`` tiene que coincidir el orden con el que se han definido las columnas en la creación de una tabla ``INSERT``. Los valores son asignados mediante un posicionamiento relativo 
-  > Para guardar los datos, usaremos la sentencia ``COMMIT``
-  > Para cancelar lo que hayamos insertado, usaremos la sentencia ``ROLLBACK``
+ 
 
 Ejemplos 👇
 ```sql
@@ -55,3 +56,15 @@ SELECT CODPEDIDO+75,ESTADO,NOMAPELLIDO FROM PAQUETES WHERE CODPEDIDO IN (0,1,2);
 ```
   > Referencia a las columnas los valores que han sido recuperados mediante la sentencia ``SELECT``.
   > Añade en la tabla en su totalidad, las filas que se recuperen mediante la sentencia ``SELECT``.
+
+
+## UPDATE <a name="dml_update"></a>
+
+La consula ``UPDATE`` es usada para actualizar valores, en una o varias columnas (para un subconjunto de tuplas de una tabla).
+
+
+```sql
+  INSERT INTO <nombre-tabla> [ (<ejemploAtributo1>, <ejemploAtributo2>] 
+  VALUES (<valor1>, <valor2>)
+
+```
