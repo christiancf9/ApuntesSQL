@@ -198,8 +198,8 @@ Titulos CHAR UNIQUE NOT NULL,
 ...
 );
 ```
-
-## DROP
+## Modificación - [``ALTER``]
+## Eliminación  - [``DROP``]
 Instrucción utilizada para borrar una BBDD y/o una tabla. Ejemplos 👇
 ```sql
 DROP SCHEMA [IF EXISTS] langostasDB;
