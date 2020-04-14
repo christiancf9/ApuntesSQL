@@ -97,3 +97,9 @@ CREATE TABLE Libros (
 | CIDR          | Network   | Direcciones IPV4 e IPV6. No permite bits distintos a '0' a la derecha de la máscara      |
 | INET          | Network   | Direcciones IPV4 e IPV6.                                                                 |
 <!-- Tabla de datos -->
+
+A partir del campo de datos anterior, ya podemos crear nuestros propios dominios 👇
+
+```sql
+CREATE DOMAIN <nombreTipoDato>;
+```
