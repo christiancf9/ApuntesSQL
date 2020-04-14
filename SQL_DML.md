@@ -13,7 +13,7 @@ Veremos más adelante, ejemplos de su uso... ✌
   > Para cancelar lo que hayamos insertado, usaremos la sentencia ``ROLLBACK``
 ***
 ***
-# INDICE <a name="INDICE"></a>
+# INDICE <a name="dml_index"></a>
 1. ⚡ [DML - INSERT](#dml_insert)
 2. ⚡ [DML - UPDATE](#dml_update)
 3. ⚡ [DML - DELETE](#dml_delete)
@@ -42,6 +42,9 @@ VALUES (1,'WILSON');
 INSERT INTO PAQUETES (CODPEDIDO,ESTADO)
 VALUES (130,1);
 ```
+
+👁 [ÍNDICE](#dml_index)
+
 ### INSERCCIÓN DE SENTENCIAS CON MÚLTIPLES FILAS [``INSERT`` + ``SELECT``]
 En este caso, para introducir un sub-conjunto de fila(s) de una tabla dentro de otra, se escribe solamente una sentencia ``INSERT`` y una sentencia ``SUBSELECT`` interna (es decir, dentro de ella...) Ejemplo:
 
@@ -57,6 +60,7 @@ SELECT CODPEDIDO+75,ESTADO,NOMAPELLIDO FROM PAQUETES WHERE CODPEDIDO IN (0,1,2);
   > Referencia a las columnas los valores que han sido recuperados mediante la sentencia ``SELECT``.
   > Añade en la tabla en su totalidad, las filas que se recuperen mediante la sentencia ``SELECT``.
 
+👁 [ÍNDICE](#dml_index)
 
 ## UPDATE <a name="dml_update"></a>
 
@@ -79,6 +83,8 @@ SET (
 WHERE faccion = 'Esparta';
 ```
 
+👁 [ÍNDICE](#dml_index)
+
 ## DELETE <a name="dml_delete"></a>
 
 La consula ``DELETE`` es usada para eliminar fila(s) de una o varias tablas. En ella se debe especificar, al menos la tabla, y después mediante la sentencia ``WHERE``, las filas que queramos eliminar.
@@ -96,3 +102,5 @@ WHERE pais = 'Grecia';
 ```
 
 🛡 IMPORTANTE: Si no usamos la sentencia ``WHERE``, haremos que los cambios se efectuen en **TODAS** las *TUPLAS*. En este caso, si se omitiese, se ~~borrarían~~ todas las tuplas...
+
+👁 [ÍNDICE](#dml_index)
