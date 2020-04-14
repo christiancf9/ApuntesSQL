@@ -62,7 +62,7 @@ SELECT CODPEDIDO+75,ESTADO,NOMAPELLIDO FROM PAQUETES WHERE CODPEDIDO IN (0,1,2);
 
 La consula ``UPDATE`` es usada para actualizar valores, en una o varias columnas (para un subconjunto de tuplas de una tabla).
 
-Ejemplos (Sintáxis y Prueba): 👇 
+Ejemplos (Sintáxis y Prueba): 
 
 ```sql
   UPDATE <tablaEjemplo>
@@ -85,3 +85,7 @@ La consula ``DELETE`` es usada para eliminar filas de una o varias tablas. En el
 
 Ejemplos (Sintáxis y Prueba): 👇 
 
+```sql
+DELETE FROM <ejemploTABLA> 
+[WHERE <filaOPCIONAL>];
+```
