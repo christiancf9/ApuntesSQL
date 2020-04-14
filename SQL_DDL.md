@@ -81,10 +81,10 @@ CREATE TABLE Libros (
 | TIPO DE DATO  | CATEGORÍA |                             DEFINICIÓN                                                   |             
 |---------------|-----------|------------------------------------------------------------------------------------------|
 | INTEGER       | Numérico  | Es un número entero y a su vez el más empleado                                           |
-| DECIMAL(n,m)  | Numérico  | Es un núm. preciso. 131070 dígitos (antes de la coma) y 16385 dígitos (desp. de la coma) |               
+| DECIMAL       | Numérico  | Es un núm. preciso. 131070 dígitos (antes de la coma) y 16385 dígitos (desp. de la coma) |               
 | REAL          | Numérico  | Es nu número no preciso.                                                                 |
-| CHAR(n)       | Texto     | Longitud total y fija limitada                                                           |
-| VARCHAR(n)    | Texto     | Longitud variable                                                                        |
+| CHAR          | Texto     | Longitud total y fija limitada                                                           |
+| VARCHAR       | Texto     | Longitud variable                                                                        |
 | TEXT          | Texto     | Longitud ilimitada variable                                                              |
 | DATE          | Fecha     | La fecha del día. Usa 4 BYTES                                                            |
 | TIME          | Fecha     | La hora del día. Usa 8 BYTES                                                             |
