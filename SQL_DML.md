@@ -2,7 +2,11 @@
                                                          SENTENCIAS DML
                                         
 # DEFINICIÓN
-Usando sentencias **``DML``** para crear y manejar tablas
+Usando sentencias **``DML``** formaremos instrucciones con la capacidad de modificar datos en las tablas creadas previamente.
+
+Una agrupación de instrucciones DML, que se ejecutan consecutivamente, se denominan transacciones.
+
+  > Esta opera sobre los objetos en una base de datos, es decir sobre su estructura
 
 Un esquema es la colección de múltiples objetos de una BBDD, que son conocidos como objetos de un esquema.
 
