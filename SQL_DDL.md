@@ -30,16 +30,25 @@ La consula ``CREATE`` es usada para crear una base de datos u objetos, tales com
 El ejemplo siguiente demuestra como la consulta ``CREATE`` puede ser usada para crear una base de datos.
 
 ```sql
-CREATE DATABASE LibreriaDB
+CREATE DATABASE LibreriaDB [IF NOT EXISTS] <nombreBBDD>
+                           [CHARACTER SET <nombreCharset>] 
+                           [COLLATE <nombreCollate>]
 ```
 
 Otro ejemplo
 
 ```sql
-CREATE SCHEMA LibreriaDB
+CREATE SCHEMA LibreriaDB [IF NOT EXISTS] <nombreBBDD>
+                         [CHARACTER SET <nombreCharset>] 
+                         [COLLATE <nombreCollate>]
 ```
 
-NOTA: La diferencia es inexistente en MySQL, pero no en PostgreSQL, donde ``SCHEMA`` añade atributos de permiso...
+NOTA: La diferencia es inexistente en MySQL, pero no en PostgreSQL, donde ``SCHEMA`` añade atributos de permiso. En la práctica se aconseja usar ``SCHEMA``
+
+- `[IF NOT EXISTS]`: Este campo es opcional. Revisa si la BBDD que vayamos a crear exista (o no) en nuestro sistema gestor de base de datos...
+- `CHARACTER SET`: Este campo es opcional. Establece un parámetro de conjunto de caracteres que se vaya a utilizar... Ejemplo: UTF-8
+- `COLLATE`: Este campo es opcional. Junto a CHARACTER_SET, establece la variante específica global Ejemplo: utf8_unicode_ci
+
 
 **CREANDO UNA TABLA - [CREATE TABLE]**
 
