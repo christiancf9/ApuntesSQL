@@ -118,7 +118,7 @@ Se utilizan con el ``CREATE TABLE`` y con el ``ALTER TABLE``.
 
 ### PRIMARY KEY
 
-Establece cual es la clave principal de una tabla. Esta establece que según las reglas de E/R, las claves no pueden ser nulas y sus valores no pueden repetirse...
+Establece cual es la clave principal de una tabla. Que según las reglas de E/R, las claves no pueden ser nulas y estos valores no pueden repetirse...
 
 **Método simplificado**
 ```sql
@@ -135,4 +135,21 @@ CREATE TABLE Libreria (
   ...
   PRIMARY KEY (cantidadLibros)[, tomos, ..., ...])
 );
+```
+### FOREIGN KEY
+
+Es usada cuando un atributo/atributos de una tabla, es a su vez la clave principal de otra... En las claves foráneas, es preciso que deban tener el mismo tipo de dominio o atributo que la tabla principal. Hay varias maneras de hacerlo 👇
+
+**Método simple**
+
+```sql
+CREATE TABLE Libreria1 (
+  cantidadLibrosPequenhos dominio_ejemplo1 PRIMARY KEY,
+  cantidadLibrosGrandes   dominio_ejemplo2,  
+);
+CREATE TABLE Libreria2 (
+  cantidadTomosPequenhos  dominio_ejemplo1 PRIMARY KEY,
+  cantidadTomosGrandes    dominio_ejemplo2 REFERENCES Libreria1 (cantidadLibrosPequenhos)
+);
+
 ```
