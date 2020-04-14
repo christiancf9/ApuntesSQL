@@ -98,6 +98,8 @@ CREATE TABLE Libros (
 | INET          | Network   | Direcciones IPV4 e IPV6.                                                                 |
 <!-- Tabla de datos -->
 
+**CREANDO UN DOMINIO**
+
 A partir del campo de datos anterior, ya podemos crear nuestros propios dominios 👇
 
 ```sql
