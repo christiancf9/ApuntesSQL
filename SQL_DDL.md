@@ -54,8 +54,8 @@ NOTA: La diferencia es inexistente en MySQL, pero no en PostgreSQL, donde ``SCHE
 
 La consulta ``CREATE`` también es usada para añadir tablas en una BBDD existentes, tal y como muestra este script 👇
 
-```sql CREATE TABLE Libros
-(
+```sql 
+CREATE TABLE Libros (
     Id INT PRIMARY KEY IDENTITY(1,1),
     Name VARCHAR (50) NOT NULL,
     Precio CHAR(10)
@@ -66,8 +66,8 @@ La consulta ``CREATE`` también es usada para añadir tablas en una BBDD existen
 - Más adelante, veremos que a la hora de declarar atributos, podemos aplicar ciertas RESTRICCIONES (**CONSTRAINT**)
 
 Ejemplo
-```sql CREATE TABLE Libros
-(
+```sql 
+CREATE TABLE Libros (
     Id INT PRIMARY KEY IDENTITY(1,1),
     Name VARCHAR (50) NOT NULL,
     Precio CHAR(10)
