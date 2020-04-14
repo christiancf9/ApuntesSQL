@@ -198,7 +198,6 @@ Titulos CHAR UNIQUE NOT NULL,
 ...
 );
 ```
-[ÍNDICE](#INDICE)
 
 ## DROP
 Instrucción utilizada para borrar una BBDD y/o una tabla. Ejemplos 👇
@@ -213,3 +212,5 @@ DROP TABLE [IF EXISTS] [CASCADE|RESTRICT] langostaCubana;
   > Mediante ``RESTRICT`` en si no se "carga" la tabla, mientras que esta dependa de otro atributo referenciada en otra tabla
   
 🛡 IMPORTANTE: En MySQL, cuando se hace un ``DROP`` a una tabla, los *privilegios* otorgados para la tabla **NO** se eliminan automáticamente. Debería (y es aconsajable) hacer un ``DROP`` a cada una manualmente...
+
+
