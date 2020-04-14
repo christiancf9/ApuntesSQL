@@ -77,7 +77,7 @@ CREATE TABLE Libros (
 ```
 
 **Tipos de datos - Dominios**
--- Tabla de datos
+<!-- Tabla de datos -->
 | TIPO DE DATO  | CATEGORÍA |                             DEFINICIÓN                                                   |             
 |---------------|-----------|------------------------------------------------------------------------------------------|
 | INTEGER       | Numérico  | Es un número entero y a su vez el más empleado                                           |
@@ -96,4 +96,4 @@ CREATE TABLE Libros (
 | XML           | Fichero   | Extensible Markup Language                                                               |    
 | CIDR          | Network   | Direcciones IPV4 e IPV6. No permite bits distintos a '0' a la derecha de la máscara      |
 | INET          | Network   | Direcciones IPV4 e IPV6.                                                                 |
--- Tabla de datos
+<!-- Tabla de datos -->
