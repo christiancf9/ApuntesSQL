@@ -153,7 +153,7 @@ CREATE TABLE Libreria2 (
 );
 ```
 
-**Método compuesto**
+**Método extenso**
 
 ```sql
 CREATE TABLE Libreria1 (
