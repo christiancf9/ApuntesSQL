@@ -40,7 +40,7 @@ CREATE SCHEMA LibreriaDB
 
 NOTA: La diferencia es inexistente en MySQL, pero no en SQL Server, donde ``SCHEMA`` añade atributos de permiso...
 
-*CREANDO UNA TABLA*
+**CREANDO UNA TABLA**
 
 La consulta ``CREATE`` también es usada para añadir tablas en una BBDD existentes, tal y como muestra este script 👇
 
