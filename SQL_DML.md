@@ -78,3 +78,10 @@ Ejemplos (Sintáxis y Prueba): 👇
     lider = 'Leonidas')
   WHERE pais = 'Grecia';
 ```
+
+## DELETE <a name="dml_update"></a>
+
+La consula ``DELETE`` es usada para eliminar filas de una o varias tablas. En ella se debe especificar, al menos la tabla, y después mediante la sentencia ``WHERE``, las filas que queramos eliminar.
+
+Ejemplos (Sintáxis y Prueba): 👇 
+
