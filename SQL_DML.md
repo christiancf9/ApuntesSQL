@@ -16,7 +16,7 @@ Veremos más adelante, ejemplos de su uso... 👇
 2. ⚡ [DML - UPDATE](#dml_update)
 3. ⚡ [DDL - DELETE](#dml_delete)
 ***
-# INSERT <a name="dml_insert"></a>
+## INSERT <a name="dml_insert"></a>
 
 La consula ``INSERT`` es usada para añadir filas a una tabla
 
@@ -41,4 +41,4 @@ VALUES (1,'WILSON');
 INSERT INTO PAQUETES (CODPEDIDO,ESTADO)
 VALUES (130,1);
 ```
-## SENTENCIA INSERT CON MÚLTIPLES FILAS
+### SENTENCIA INSERT CON MÚLTIPLES FILAS
