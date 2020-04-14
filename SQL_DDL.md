@@ -210,6 +210,6 @@ DROP TABLE [IF EXISTS] [CASCADE|RESTRICT] langostaCubana;
 ```
   > Mediante *IF EXISTS*, si la BBDD no existe, este solamente nos devolvería **``FALSE``** 
   > Mediante ``CASCADE``, esta eliminaría **TODA** la tabla y sus sub-adyacentes.
-  > Mediante ``RESTRICT`` en si no se "carga" la tabla, mientras que esta dependa de otro atributo referencia en otra tabla
+  > Mediante ``RESTRICT`` en si no se "carga" la tabla, mientras que esta dependa de otro atributo referenciada en otra tabla
   
 🛡 IMPORTANTE: En MySQL, cuando se hace un ``DROP`` a una tabla, los *privilegios* otorgados para la tabla **NO** se eliminan automáticamente. Debería (y es aconsajable) hacer un ``DROP`` a cada una manualmente...
