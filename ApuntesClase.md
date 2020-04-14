@@ -1,4 +1,5 @@
- --> REVISAR DIBUJO ANTERIOR
+## REVISAR LIBRETA
+
 
 ```SQL
 [CONSTRAINT] <nome-da-restricción>]
@@ -57,4 +58,4 @@ DELETE FROM
 [WHERE predicado]
 
 
-### REVISAR LIBRETA
+## REVISAR LIBRETA
