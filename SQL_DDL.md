@@ -16,15 +16,15 @@ Estos objetos tienen un acceso directo al esquema del propietario. Debajo una li
   
 Uno de los primero(s) pasos a la hora de crear una BBDD, es crear las tablas que almacenarán los datos de una organización. Independientemente del tamaño y complejidad de una base de datos, cada una de estas se compone de **tablas**.
 
-  ***
+ ***
 CREATE
 
 La consula ``CREATE`` es usada para crear una base de datos u objetos, tales como tablas, vistas, almacenamientos procesados, etc
 
   
   
-Creando una base de datos (BBDD)
-** 
+**Creando una base de datos (BBDD)**
+***
 
 El ejemplo siguiente demuestra como la consulta ``CREATE`` puede ser usada para crear una base de datos.
 
