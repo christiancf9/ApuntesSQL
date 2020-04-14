@@ -55,3 +55,6 @@ WHERE name = 'Spain',
 DELETE FROM
   nome-da-taboa
 [WHERE predicado]
+
+
+### REVISAR LIBRETA
