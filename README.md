@@ -12,4 +12,4 @@
 
 ✔ [SQL - DML](./SQL_DML.md)
 
-✔ [MYSQL / MARIADB](./Instalacion_MySQL_o_MariaDB.md)
+✔ [MYSQL / MARIADB](./Instalacion_MySQL_MariaDB.sql)
