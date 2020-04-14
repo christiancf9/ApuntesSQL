@@ -151,5 +151,24 @@ CREATE TABLE Libreria2 (
   cantidadTomosPequenhos  dominio_ejemplo1 PRIMARY KEY,
   cantidadTomosGrandes    dominio_ejemplo2 REFERENCES Libreria1 (cantidadLibrosPequenhos)
 );
+```
 
+**Método compuesto**
+
+```sql
+CREATE TABLE Libreria1 (
+  cantidadLibrosPequenhos dominio_ejemplo1,
+  cantidadLibrosGrandes   dominio_ejemplo2,  
+  [CONSTRAINT PK_Libreria1]
+    PRIMARY KEY (cantidadLibrosPequenhos[, cantidadLibrosGrandes])
+);
+CREATE TABLE Libreria2 (
+  cantidadTomosPequenhos  dominio_ejemplo1 PRIMARY KEY,
+  cantidadTomosGrandes    dominio_ejemplo2 REFERENCES Libreria1 (cantidadLibrosPequenhos)
+  [CONSTRAINT PK_Libreria2]
+    FOREIGN KEY (cantidadTomosPequenhos[, cantidadTomosGrandes])
+    REFERENCES Libreria1 (cantidadLibrosPequenhos[, cantidadLibrosGrandes])
+    ON DELETE [CASCADE | NO ACTION | SET NULL | SET DEFAULT <valorporDefecto>]
+    ON UPDATE [CASCADE | NO ACTION | SET NULL | SET DEFAULT <valorporDefecto>]
+);
 ```
