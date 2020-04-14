@@ -72,6 +72,9 @@ Ejemplos (Sintáxis y Prueba): 👇
 
 ```sql
   UPDATE esparta
-  SET pais = 'Grecia', anho = 480, lider = 'Leonidas'
-  [WHERE pais = 'Grecia'];
+  SET ( 
+    pais = 'Grecia',
+    anho = 480, 
+    lider = 'Leonidas')
+  WHERE pais = 'Grecia';
 ```
