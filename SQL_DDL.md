@@ -24,6 +24,7 @@ La consula ``CREATE`` es usada para crear una base de datos u objetos, tales com
   
   
 Creando una base de datos (BBDD)
+** 
 
 El ejemplo siguiente demuestra como la consulta ``CREATE`` puede ser usada para crear una base de datos.
 
