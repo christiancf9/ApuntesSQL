@@ -51,7 +51,7 @@ NOTA: La diferencia es inexistente en MySQL, pero no en PostgreSQL, donde ``SCHE
 - `CHARACTER SET`: Este campo es opcional. Establece un parámetro de conjunto de caracteres que se vaya a utilizar... Ejemplo: UTF-8
 - `COLLATE`: Este campo es opcional. Junto a CHARACTER_SET, establece la variante específica global Ejemplo: utf8_unicode_ci
 
-
+👁 [ÍNDICE](#ddl_index)
 
 ### CREANDO UNA TABLA - [``CREATE TABLE``]
 
@@ -63,6 +63,10 @@ CREATE TABLE Libros (
     Precio CHAR(10)
 );
 ```
+
+👁 [ÍNDICE](#ddl_index)
+
+
 ### AÑADIENDO ATRIBUTOS
 
 - Más adelante, veremos que a la hora de declarar atributos, podemos aplicar ciertas RESTRICCIONES (**CONSTRAINT**)
@@ -78,6 +82,8 @@ CREATE TABLE Libros (
             PRIMARY KEY (Precio)
 );
 ```
+
+👁 [ÍNDICE](#ddl_index)
 
 ### Tipos de datos - Dominios
 <!-- Tabla de datos -->
@@ -101,6 +107,8 @@ CREATE TABLE Libros (
 | INET          | Network   | Direcciones IPV4 e IPV6.                                                                 |
 <!-- Tabla de datos -->
 
+👁 [ÍNDICE](#ddl_index)
+
 ### CREANDO UN DOMINIO - [CREATE DOMAIN]
 A partir del campo de datos anterior, ya podemos crear nuestros propios dominios 👇
 
@@ -109,6 +117,7 @@ CREATE DOMAIN <nombreTipoDato> CHAR(10);
 ```
 Una vez realizado lo anterior, podremos usar este dominio para la creación de tablas y asignaciones de dominios a los atributos...
 
+👁 [ÍNDICE](#ddl_index)
 
 ### AÑADIENDO RESTRICCIONES A ATRIBUTOS - [``CONSTRAINTS``]
 
@@ -121,6 +130,8 @@ Una restricción es un método para especificar/establecer las:
 - CHECK
 
 Se utilizan con el ``CREATE TABLE`` y con el ``ALTER TABLE``.
+
+👁 [ÍNDICE](#ddl_index)
 
 ### PRIMARY KEY
 
@@ -142,9 +153,13 @@ CREATE TABLE Libreria (
   PRIMARY KEY (cantidadLibros)[, tomos, ..., ...])
 );
 ```
+
+👁 [ÍNDICE](#ddl_index)
+
 ### FOREIGN KEY
 
 Es usada cuando un atributo/atributos de una tabla, es a su vez la clave principal de otra... En las claves foráneas, es preciso que deban tener el mismo tipo de dominio o atributo que la tabla principal. Hay varias maneras de hacerlo 👇
+
 
 **Método simple**
 
@@ -158,8 +173,6 @@ CREATE TABLE Libreria2 (
   cantidadTomosGrandes    dominio_ejemplo2 REFERENCES Libreria1 (cantidadLibrosPequenhos)
 );
 ```
-
-👁 [DDL - INDEX](#ddl_index)
 
 **Método extenso**
 
@@ -188,6 +201,8 @@ CREATE TABLE Libreria2 (
   - SET NULL    -> Mediante esta opción, si el atributo al que hace referencia se modifica o elimina, los valores de las claves ajenas se ponen todas a **NULL**.
   - SET DEFAULT -> Mediante esta opción, si el atributo al que hace referencia se modifica o elimina, los valores de las claves ajenas se reestablecen por completo.
 
+👁 [ÍNDICE](#ddl_index)
+
 ### UNIQUE
 Estos valores deben de ser solamente **ÚNICOS**. Bajo ninguna excepción deben de repetirse en toda la tabla
 ```sql
@@ -197,6 +212,9 @@ Titulos CHAR UNIQUE,
 ...
 );
 ```
+
+👁 [ÍNDICE](#ddl_index)
+
 ### NOT NULL
 Si utilizamos ``UNIQUE`` junto a ``NOT NULL`` podemos llegar a declarar **claves alternativas**..
 ```sql
@@ -206,6 +224,8 @@ Titulos CHAR UNIQUE NOT NULL,
 ...
 );
 ```
+
+👁 [ÍNDICE](#ddl_index)
 
 # Modificación - [``ALTER``] <a name="ddl_alter"></a>
 Instrucción utilizada para modificar columnas, tablas y restricciones. 
@@ -219,6 +239,9 @@ ALTER TABLE [IF EXISTS] grecia
             [ADD | DROP [COLUMN | CONSTRAINT] atenas]
             
 ```
+
+👁 [ÍNDICE](#ddl_index)
+
 # Eliminación  - [``DROP``] <a name="ddl_drop"></a>
 Instrucción utilizada para borrar una BBDD y/o una tabla. Ejemplos 👇
 ```sql
@@ -233,4 +256,4 @@ DROP TABLE [IF EXISTS] [CASCADE|RESTRICT] langostaCubana;
   
 🛡 IMPORTANTE: En MySQL, cuando se hace un ``DROP`` a una tabla, los *privilegios* otorgados para la tabla **NO** se eliminan automáticamente. Debería (y es aconsajable) hacer un ``DROP`` a cada una manualmente...
 
-
+👁 [ÍNDICE](#ddl_index)
