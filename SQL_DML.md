@@ -22,18 +22,12 @@ La consula ``INSERT`` es usada para añadir filas a una tabla
 
 
 ```sql
-  INSERT INTO <ejemploTabla> [ (atributo1, atributo2] 
+  INSERT INTO <nombre-tabla> [ (atributo1, atributo2] 
   VALUES (<valor1>, <valor2>)
 
-
 ```
 
-### CREANDO UNA BBDD - [``CREATE DATABASE`` | ``CREATE SCHEMA``]
+El orden en que se les asignen los valores en ``VALUES`` tiene que coincidir el orden con el que se han definido las columnas en la creación de una tabla ``INSERT``. Los valores son asignados mediante un posicionamiento relativo 
+  > Para guardar los datos, usaremos la sentencia ``COMMIT``
+  > Para cancelar lo que hayamos insertado, usaremos la sentencia ``ROLLBACK``
 
-El ejemplo siguiente demuestra como la consulta ``CREATE`` puede ser usada para crear una base de datos.
-
-```sql
-CREATE DATABASE LibreriaDB [IF NOT EXISTS] <nombreBBDD>
-                           [CHARACTER SET <nombreCharset>] 
-                           [COLLATE <nombreCollate>];
-```
