@@ -24,7 +24,7 @@ La consula ``CREATE`` es usada para crear una base de datos u objetos, tales com
 
   
   
-**CREANDO UNA BBDD** - [**``CREATE DATABASE``** | **``CREATE SCHEMA``**]
+## **CREANDO UNA BBDD** - [**``CREATE DATABASE``** | **``CREATE SCHEMA``**]
 
 
 El ejemplo siguiente demuestra como la consulta ``CREATE`` puede ser usada para crear una base de datos.
