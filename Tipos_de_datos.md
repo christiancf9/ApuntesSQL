@@ -39,7 +39,7 @@ Varchar --> Igual al char, salvo que este, almacena los bytes en el valor campo
    - (+)
 
 
-                                                     Funciones Agregadas
+                                                Funciones Agregadas
 
 MAX()   -->  Devuelve el valor máximo
 
