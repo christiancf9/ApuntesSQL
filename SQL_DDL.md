@@ -180,4 +180,21 @@ CREATE TABLE Libreria2 (
   - SET NULL    -> Mediante esta opción, si el atributo al que hace referencia se modifica o elimina, los valores de las claves ajenas se ponen todas a **NULL**.
   - SET DEFAULT -> Mediante esta opción, si el atributo al que hace referencia se modifica o elimina, los valores de las claves ajenas se reestablecen por completo.
 
-### CHECK
+### UNIQUE
+Estos valores deben de ser solamente **ÚNICOS**. Bajo ninguna excepción deben de repetirse en toda la tabla
+```sql
+CREATE TABLE Libreria(
+Autores CHAR PRIMARY KEY,
+Titulos CHAR UNIQUE,
+...
+);
+```
+### NOT NULL
+Si utilizamos ``UNIQUE`` junto a ``NOT NULL`` podemos llegar a declarar **claves alternativas**..
+```sql
+CREATE TABLE Libreria(
+Autores CHAR PRIMARY KEY,
+Titulos CHAR UNIQUE NOT NULL,
+...
+);
+```
