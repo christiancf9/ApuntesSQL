@@ -208,4 +208,4 @@ DROP SCHEMA [IF EXISTS] langostasDB;
 ```sql
 DROP TABLE [IF EXISTS] [CASCADE|RESTRICT] langostaCubana;
 ```
-> Mediante *IF EXISTS*, si la BBDD no existe, este solamente nos devolvería **``FALSE``** 
+  > Mediante *IF EXISTS*, si la BBDD no existe, este solamente nos devolvería **``FALSE``** 
