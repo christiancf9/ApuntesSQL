@@ -101,5 +101,6 @@ CREATE TABLE Libros (
 A partir del campo de datos anterior, ya podemos crear nuestros propios dominios 👇
 
 ```sql
-CREATE DOMAIN <nombreTipoDato>;
+CREATE DOMAIN <nombreTipoDato> CHAR(10);
 ```
+Una vez realizado lo anterior, podremos usar este dominio para la creación de tablas y asignaciones de dominios a los atributos...
