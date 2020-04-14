@@ -14,4 +14,4 @@
 
 <!-- ✔ [MYSQL / MARIADB](./Instalacion_MySQL_MariaDB.sql) -->
 
-✔ [MYSQL / MARIADB]{% gist 2d4452556ae7fbd1514f65af6360619b %}
+✔ [MYSQL / MARIADB] {% gist 2d4452556ae7fbd1514f65af6360619b %}
