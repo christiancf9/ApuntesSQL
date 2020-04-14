@@ -26,11 +26,21 @@ La consula ``CREATE`` es usada para crear una base de datos u objetos, tales com
 Creando una base de datos (BBDD)
 
 El ejemplo siguiente demuestra como la consulta ``CREATE`` puede ser usada para crear una base de datos.
+
 ```sql
 CREATE DATABASE LibreriaDB
 ```
 
+CREANDO UNA TABLA
 
- 
+La consulta ``CREATE`` también es usada para añadir tablas en una BBDD existentes, tal y como muestra este script 👇
+
+```sql CREATE TABLE Books
+(
+Id INT PRIMARY KEY IDENTITY(1,1),
+Name VARCHAR (50) NOT NULL,
+Price INT
+` `
+
  
 
