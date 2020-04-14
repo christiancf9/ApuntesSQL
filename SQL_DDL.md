@@ -176,6 +176,6 @@ CREATE TABLE Libreria2 (
 
 - VALORES de ``ON DELETE`` y ``ON UPDATE``.
   - CASCADE     -> Mediante esta opción, si el atributo al que hace referencia se modifica o elimina, este también modifica o elimina las claves ajenas.
-  - NO ACTION   -> 
-  - SET NULL    ->
-  - SET DEFAULT ->
+  - NO ACTION   -> Mediante esta opción, si el atributo al que hace referencia se modifica o elimina, este no realiza nada. 🤐
+  - SET NULL    -> Mediante esta opción, si el atributo al que hace referencia se modifica o elimina, los valores de las claves ajenas se ponen todas a **NULL**.
+  - SET DEFAULT -> Mediante esta opción, si el atributo al que hace referencia se modifica o elimina, los valores de las claves ajenas se reestablecen por completo.
