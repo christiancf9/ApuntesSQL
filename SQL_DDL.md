@@ -18,7 +18,7 @@ Estos objetos tienen un acceso directo al esquema del propietario. Debajo una li
 Uno de los primero(s) pasos a la hora de crear una BBDD, es crear las tablas que almacenarán los datos de una organización. Independientemente del tamaño y complejidad de una base de datos, cada una de estas se compone de **tablas**.
 
 ***
-# INDICE <a name="INDICE"></a>
+# INDICE <a name="ddl_index"></a>
 1. ⚡ [DDL - CREATE](#ddl_create)
 2. ⚡ [DDL - ALTER](#ddl_alter)
 3. ⚡ [DDL - DROP](#ddl_drop)
@@ -50,6 +50,7 @@ NOTA: La diferencia es inexistente en MySQL, pero no en PostgreSQL, donde ``SCHE
 - `[IF NOT EXISTS]`: Este campo es opcional. Revisa si la BBDD que vayamos a crear exista (o no) en nuestro sistema gestor de base de datos...
 - `CHARACTER SET`: Este campo es opcional. Establece un parámetro de conjunto de caracteres que se vaya a utilizar... Ejemplo: UTF-8
 - `COLLATE`: Este campo es opcional. Junto a CHARACTER_SET, establece la variante específica global Ejemplo: utf8_unicode_ci
+
 
 
 ### CREANDO UNA TABLA - [``CREATE TABLE``]
@@ -157,7 +158,7 @@ CREATE TABLE Libreria2 (
   cantidadTomosGrandes    dominio_ejemplo2 REFERENCES Libreria1 (cantidadLibrosPequenhos)
 );
 ```
-
+⚡ [DDL - INDEX](#ddl_index)
 **Método extenso**
 
 ```sql
@@ -203,6 +204,7 @@ Titulos CHAR UNIQUE NOT NULL,
 ...
 );
 ```
+
 # Modificación - [``ALTER``] <a name="ddl_alter"></a>
 Instrucción utilizada para modificar columnas, tablas y restricciones. 
   > ``ALTER`` también nos permite renombrar ciertos elementos y vincular tablas de una base de datos a otra...
