@@ -61,3 +61,11 @@ SHOW TABLES;
 ![MOSTRAR_TABLAS](./imagenes/show_tables_2.png)
   > También podemos usar el comando ``SHOW TABLE STATUS;``, pero en este caso
   > nos mostrara un "output" propio, del motor de MySQL
+
+## MOSTRAR INFORMACIÓN - TABLAS <a name="comandos_desc-tablas"></a>
+
+```sql
+DESC <Ejemplo-de-tabla>;
+```
+![MOSTRAR INFO - TABLA](./imagenes/desc_departamento.png)
+  > La opción `DESC` también se conoce como la opción `DESCRIBE` (la cual detalla cualquier tabla que seleccionemos...)
