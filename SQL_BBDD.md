@@ -62,4 +62,4 @@ SHOW DATABASES;
 ```
 ![SHOW_DATABASE_REPASO](./imagenes/repaso_show-bbdd.png)
 
-
+Una vez creada la BBDD anterior, procederemos a crear el resto de BBDD..
