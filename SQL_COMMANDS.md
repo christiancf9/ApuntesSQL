@@ -101,9 +101,13 @@ SELECT version();
 
 ## LIMPIAR PANTALLA - CLEAR <a name="comandos_clean"></a>
 
-Y para terminar... Un comando súper útil, sería el siguiente
+Y para terminar... Un comando súuuuper útil 😎, sería el siguiente..
 
 Cuando nos situemos **dentro** de MySQL, realizaremos la siguiente combinación de teclas..
 
 ``CTRL + L``
+  > Supongo, "no estoy seguro", pero debería funcionar también en MariaDB..
+  >
+  > Es equivalente al ``CLEAR`` de Ubuntu o al ``CLS`` de Windows
 
+Con esto, tendremos la pantalla de comandos limpia
