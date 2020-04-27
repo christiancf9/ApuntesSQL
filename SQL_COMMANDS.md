@@ -24,3 +24,12 @@ christian@christian-VirtualBox:~$ systemctl status mysql.service
 ![SYSTEMCTL_REPASO](./imagenes/repaso_systemctl.png)
   > Podemos observar que el servicio `MySQL` se está ejecutando correctamente..
   > Systemctl no funciona con el usuario `root`
+
+## VER LAS BASES DE DATOS <a name="comandos_ver-bbdd"></a>
+
+Con este sencillo comando, visualizaremos las bases de datos `BBDD` creadas en este SGBD.
+
+```sql
+SHOW DATABASES;
+```
+![SHOW_DATABASE_REPASO](./imagenes/repaso_show-bbdd.png)
