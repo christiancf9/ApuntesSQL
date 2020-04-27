@@ -113,42 +113,58 @@ USE Proyecto_de_Investigacion;
 
 ![MOSTRAR Y SELECCIONAR LA BBDD](./imagenes/show_and_use-databases.png)
 
-### CREACIÓN DE TABLAS - (PROYECTO DE INVESTIGACIÓN)
+### CREACIÓN Y ALTERACIÓN DE TABLAS - (PROYECTO DE INVESTIGACIÓN)
 
 Ahora que hemos creado la BBDD, nos tocará dar paso a la creación de tablas... Para ello, iremos captura por captura, enseñando el proceso de creación de cada una...
 
-#### TABLA SEDE - (PROYECTO DE INVESTIGACIÓN)
+#### CREACIÓN TABLA SEDE - (PROYECTO DE INVESTIGACIÓN)
 
 ![CREACIÓN DE TABLA_SEDE](./imagenes/create_table-sede.png)
 
-#### TABLA DEPARTAMENTO - (PROYECTO DE INVESTIGACIÓN)
+#### CREACIÓN TABLA DEPARTAMENTO - (PROYECTO DE INVESTIGACIÓN)
 
 ![CREACIÓN DE TABLA_DEPARTAMENTO](./imagenes/create_table-departamento.png)
 
-#### TABLA UBICACIÓN - (PROYECTO DE INVESTIGACIÓN)
+#### CREACIÓN TABLA UBICACIÓN - (PROYECTO DE INVESTIGACIÓN)
 
 ![CREACIÓN DE TABLA_UBICACIÓN](./imagenes/create_table-ubicación.png)
 
-#### TABLA GRUPO - (PROYECTO DE INVESTIGACIÓN)
+#### CREACIÓN TABLA GRUPO - (PROYECTO DE INVESTIGACIÓN)
 
 ![CREACIÓN DE TABLA_GRUPO](./imagenes/create_table-grupo.png)
 
-#### TABLA PROFESOR - (PROYECTO DE INVESTIGACIÓN)
+#### CREACIÓN TABLA PROFESOR - (PROYECTO DE INVESTIGACIÓN)
 
 ![CREACIÓN DE TABLA_PROFESOR](./imagenes/create_table-profesor.png)
 
-#### TABLA PROYECTO - (PROYECTO DE INVESTIGACIÓN)
+#### CREACIÓN TABLA PROYECTO - (PROYECTO DE INVESTIGACIÓN)
 
 ![CREACIÓN DE TABLA_PROYECTO](./imagenes/create_table-proyecto.png)
 
-#### TABLA PARTICIPA - (PROYECTO DE INVESTIGACIÓN)
+#### ALTERACIÓN TABLA DEPARTAMENTO - (PROYECTO DE INVESTIGACIÓN)
+
+![ALTERACIÓN DE TABLA_PROGRAMA](./imagenes/alter_table-departamento.png)
+
+#### ALTERACIÓN TABLA GRUPO - (PROYECTO DE INVESTIGACIÓN)
+
+![ALTERACIÓN DE TABLA_FINANCIA](./imagenes/alter_table-grupo.png)
+
+#### CREACIÓN TABLA PARTICIPA - (PROYECTO DE INVESTIGACIÓN)
 
 ![CREACIÓN DE TABLA_PARTICIPA](./imagenes/create_table-participa.png)
 
-#### TABLA PROGRAMA - (PROYECTO DE INVESTIGACIÓN)
+#### CREACIÓN TABLA PROGRAMA - (PROYECTO DE INVESTIGACIÓN)
 
 ![CREACIÓN DE TABLA_PROGRAMA](./imagenes/create_table-programa.png)
 
-#### TABLA FINANCIA - (PROYECTO DE INVESTIGACIÓN)
+#### CREACIÓN TABLA FINANCIA - (PROYECTO DE INVESTIGACIÓN)
 
 ![CREACIÓN DE TABLA_FINANCIA](./imagenes/create_table-financia.png)
+
+#### ALTERACIÓN TABLA FINANCIA_1 - (PROYECTO DE INVESTIGACIÓN)
+
+![ALTERACIÓN DE TABLA_PROGRAMA](./imagenes/alter_table-financia_1.png)
+
+#### ALTERACIÓN TABLA FINANCIA_2 - (PROYECTO DE INVESTIGACIÓN)
+
+![ALTERACIÓN DE TABLA_FINANCIA](./imagenes/alter_table-financia_2.png)
