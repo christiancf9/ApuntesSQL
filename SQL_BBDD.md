@@ -37,8 +37,6 @@ christian@christian-VirtualBox:~$ systemctl status mysql.service
   > Podemos observar que el servicio `MySQL` se está ejecutando correctamente..
   > Systemctl no funciona con el usuario `root`
 
-👁 [ÍNDICE](#sql-bbdd_index)
-
 Lo que haremos ahora, será iniciar el MySQL en modo root (como ya habíamos configurado previamente en SQL_DDL) 😎
 
 Para ello, teclearemos el siguiente comando:
@@ -61,8 +59,6 @@ CREATE DATABASE REPASO_BBDD;
 ![CREATE_BBDD_REPASO](./imagenes/repaso_create_bbdd.png)
   > 🛡NOTA: En MySQL, no existe ninguna diferencia entre `CREATE SCHEMA` y `CREATE DATABASE`.
   > En otros SGBD (Ej: Oracle) si existe diferencia (Permisos...)
-
-👁 [ÍNDICE](#sql-bbdd_index)
 
 ```sql
 SHOW DATABASES;
