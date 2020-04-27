@@ -80,5 +80,13 @@ DESC <Ejemplo-de-tabla>;
 christian@christian-VirtualBox:~$ mysql --version
 ```
 ![MYSQL_VERSION](./imagenes/comandos_mysql-version.png)
-  > Si usamos el comando ``apt-get update``, y volvemos a [instalar](https://gist.github.com/christiancf9/2d4452556ae7fbd1514f65af6360619b) el programa
-  >
+  > Si usamos el comando ``apt-get update``, y volvemos a [instalar](https://gist.github.com/christiancf9/2d4452556ae7fbd1514f65af6360619b) el programa, tendremos actualizado `MySQL`
+  
+  > Opcionalmente podremos consultar la versión de MySQL**d** (Servidor ejecutable), para ello, escribiremos ``mysqld --version``
+  
+También dentro de **MySQL**, podremos realizar dicha consulta 👇
+
+```sql
+SHOW VARIABLES LIKE ‘%version%’;
+```
+![MYSQL_2 - VERSION](./imagenes/comandos_mysql-version_2.png)
