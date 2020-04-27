@@ -212,3 +212,16 @@ source /home/christian/Documentos/BBDD/Naves_Espaciales.sql;
 En nuestro caso, al estar "dentro", seleccionaremos la 2º opción
 
 ![MySQL_SOURCE](./imagenes/mysql_source.png)
+
+Ahora seleccionamos la BBDD importada.. 
+![USE_NAVES-ESPACIALES](./imagenes/use_naves-espaciales.png)
+
+```sql
+USE NAVES_ESPACIALES;
+```
+Mostramos (como hicimos con Proyecto de Investigación) sus respectivas tablas...
+
+```sql
+SHOW TABLES;
+```
+![SHOW_TABLES](./imagenes/show_tables_2.png)
