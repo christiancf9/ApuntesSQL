@@ -113,7 +113,7 @@ USE Proyecto_de_Investigacion;
 
 ![MOSTRAR Y SELECCIONAR LA BBDD](./imagenes/show_and_use-databases.png)
 
-### CREACIÓN Y ALTERACIÓN DE TABLAS - (PROYECTO DE INVESTIGACIÓN)
+### CREACIÓN Y MODIFICACIÓN DE TABLAS - (PROYECTO DE INVESTIGACIÓN)
 
 Ahora que hemos creado la BBDD, nos tocará dar paso a la creación de tablas... Para ello, iremos captura por captura, enseñando el proceso de creación de cada una...
 
@@ -141,13 +141,13 @@ Ahora que hemos creado la BBDD, nos tocará dar paso a la creación de tablas...
 
 ![CREACIÓN DE TABLA_PROYECTO](./imagenes/create_table-proyecto.png)
 
-#### ALTERACIÓN TABLA DEPARTAMENTO - (PROYECTO DE INVESTIGACIÓN)
+#### MODIFICACIÓN TABLA DEPARTAMENTO - (PROYECTO DE INVESTIGACIÓN)
 
-![ALTERACIÓN DE TABLA_PROGRAMA](./imagenes/alter_table-departamento.png)
+![MODIFICACIÓN DE TABLA_PROGRAMA](./imagenes/alter_table-departamento.png)
 
-#### ALTERACIÓN TABLA GRUPO - (PROYECTO DE INVESTIGACIÓN)
+#### MODIFICACIÓN TABLA GRUPO - (PROYECTO DE INVESTIGACIÓN)
 
-![ALTERACIÓN DE TABLA_FINANCIA](./imagenes/alter_table-grupo.png)
+![MODIFICACIÓN DE TABLA_FINANCIA](./imagenes/alter_table-grupo.png)
 
 #### CREACIÓN TABLA PARTICIPA - (PROYECTO DE INVESTIGACIÓN)
 
@@ -161,10 +161,10 @@ Ahora que hemos creado la BBDD, nos tocará dar paso a la creación de tablas...
 
 ![CREACIÓN DE TABLA_FINANCIA](./imagenes/create_table-financia.png)
 
-#### ALTERACIÓN TABLA FINANCIA_1 - (PROYECTO DE INVESTIGACIÓN)
+#### MODIFICACIÓN TABLA FINANCIA_1 - (PROYECTO DE INVESTIGACIÓN)
 
-![ALTERACIÓN DE TABLA_PROGRAMA](./imagenes/alter_table-financia_1.png)
+![MODIFICACIÓN DE TABLA_PROGRAMA](./imagenes/alter_table-financia_1.png)
 
-#### ALTERACIÓN TABLA FINANCIA_2 - (PROYECTO DE INVESTIGACIÓN)
+#### MODIFICACIÓN TABLA FINANCIA_2 - (PROYECTO DE INVESTIGACIÓN)
 
-![ALTERACIÓN DE TABLA_FINANCIA](./imagenes/alter_table-financia_2.png)
+![MODIFICACIÓN DE TABLA_FINANCIA](./imagenes/alter_table-financia_2.png)
