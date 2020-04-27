@@ -226,6 +226,8 @@ SHOW TABLES;
 ```
 ![SHOW_TABLES](./imagenes/show_tables_2.png)
 
+👁 [ÍNDICE](#sql-bbdd_index)
+
 ### RESULTADO [MUESTRA DE TABLAS] - (NAVES ESPACIALES)
 Mostraremos info de cada una...
 
