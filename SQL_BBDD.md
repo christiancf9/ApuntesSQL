@@ -203,7 +203,7 @@ Escribiremos lo siguiente para importar código (Depende de nuestra situación):
 
 Fuera de MySQL
 ```console
-christian@christian-VirtualBox:~$sudo mysql -u root < /home/christian/Documentos/BBDD/Naves_Espaciales.sql
+christian@christian-VirtualBox:~$ sudo mysql -u root -p < /home/christian/Documentos/BBDD/Naves_Espaciales.sql
 ```
 Dentro de MySQL
 ```sql
