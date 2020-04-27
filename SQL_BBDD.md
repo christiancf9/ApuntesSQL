@@ -7,6 +7,8 @@ Un sistema de administración de bases de datos (SGBD) es un paquete de software
 
 Un SGBD libera a los usuarios de los programas de una trama para el mantenimiento de datos. Los lenguajes de consulta de cuarta generación, como SQL, se usan junto con el paquete SGBD para interactuar con una base de datos.
 
+🛡NOTA: Acordarse que MySQL, no admite ni dominios `DOMAINS` ni valores monetarios tipo `Money`.
+
 Algunos ejemplos de SGBD son los siguientes:
 
   - MySQL / MariaDB
