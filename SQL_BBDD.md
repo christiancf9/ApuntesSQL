@@ -99,6 +99,7 @@ Para el ejercicio de 'Proyecto de Investigación', crearemos la BBDD paso a paso
 ```sql
 CREATE DATABASE Proyecto_de_Investigacion;
 ```
+![CREATE DATABASE - PROYECTO DE INVESTIGACION](./imagenes/create_database_proyecto-de-investigacion.png)
 
 
 
