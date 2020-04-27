@@ -37,6 +37,8 @@ christian@christian-VirtualBox:~$ systemctl status mysql.service
   > Podemos observar que el servicio `MySQL` se está ejecutando correctamente..
   > Systemctl no funciona con el usuario `root`
 
+👁 [ÍNDICE](#sql-bbdd_index)
+
 Lo que haremos ahora, será iniciar el MySQL en modo root (como ya habíamos configurado previamente en SQL_DDL) 😎
 
 Para ello, teclearemos el siguiente comando:
@@ -47,7 +49,7 @@ christian@christian-VirtualBox:~$ mysql -u root -p
 ![MySQL_ROOT_USER](./imagenes/repaso_mysql_user_root.png)
   > Como ya hicimos la autenticación de contraseña para el usuario root, procederemos a usar dicho usuario...
 
-👁 [ÍNDICE](#ddl_index)
+👁 [ÍNDICE](#sql-bbdd_index)
 
 Una vez iniciado con el usuario root, en la shell de MySQL, procederemos a crear una BBDD de prueba...
 
@@ -60,12 +62,14 @@ CREATE DATABASE REPASO_BBDD;
   > 🛡NOTA: En MySQL, no existe ninguna diferencia entre `CREATE SCHEMA` y `CREATE DATABASE`.
   > En otros SGBD (Ej: Oracle) si existe diferencia (Permisos...)
 
-👁 [ÍNDICE](#ddl_index)
+👁 [ÍNDICE](#sql-bbdd_index)
 
 ```sql
 SHOW DATABASES;
 ```
 ![SHOW_DATABASE_REPASO](./imagenes/repaso_show-bbdd.png)
+
+👁 [ÍNDICE](#sql-bbdd_index)
 
 Una vez creada la BBDD anterior, procederemos a eliminarla...
 
@@ -77,3 +81,4 @@ DROP DATABASE REPASO_BBDD;
 ![DROP_DATABASE_REPASO](./imagenes/repaso_drop_database.png)
   > 🛡PELIGRO: Cuidado con la sentencia `DROP`, una vez ejecutada ya no se puede revertir...
   
+👁 [ÍNDICE](#sql-bbdd_index)
