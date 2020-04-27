@@ -14,7 +14,7 @@ Algunos ejemplos de SGBD son los siguientes:
   - Oracle
   - dBASE
   - FoxPro
-  ...
+  - ...
   
 ***
 ***
