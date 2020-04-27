@@ -96,5 +96,7 @@ SELECT version();
   > O también podemos usar este comando -> ``select @@version;``
   >
   > 🛡NOTA: Solo para **MySQL**, en MariaDB sería ``SHOW VARIABLES LIKE ‘%version%’;``
+  >
+  > Y en `MySQL` *OR* `MariaDD` -> ``SELECT VERSION();``
 
 
