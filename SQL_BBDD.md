@@ -94,12 +94,20 @@ Para el ejercicio de 'Proyecto de Investigación', crearemos la BBDD paso a paso
 
 ### CREACIÓN DE LA BASE DE DATOS - (PROYECTO DE INVESTIGACIÓN)
 
-1º de todo, antes de empezar, crearemos la base de datos
+Lo primero, antes de nada, crearemos la base de datos...
 
 ```sql
 CREATE DATABASE Proyecto_de_Investigacion;
 ```
 ![CREATE DATABASE - PROYECTO DE INVESTIGACION](./imagenes/create_database_proyecto-de-investigacion.png)
 
+Lo siguiente será seleccionar dicha base de datos
+```sql
+SHOW DATABASES;
+```
+```sql
+USE Proyecto_de_Investigacion;
+```
+![MOSTRAR Y SELECCIONAR LA BBDD](./imagenes/show_and_use-databases.png)
 
 
