@@ -55,7 +55,7 @@ CREATE DATABASE REPASO_BBDD;
 ```
 ![CREATE_BBDD_REPASO](./imagenes/create_bbdd_repaso.png)
   > 🛡NOTA: En MySQL, no existe ninguna diferencia entre ``CREATE SCHEMA`` y ``CREATE DATABASE``
-  > en otros SGBD (Ej: Oracle) si existe diferencia (Permisos...)
+  > .En otros SGBD (Ej: Oracle) si existe diferencia (Permisos...)
   
 
 
