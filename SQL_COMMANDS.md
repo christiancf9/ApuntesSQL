@@ -110,6 +110,6 @@ Cuando nos situemos **dentro** de MySQL, realizaremos la siguiente combinación 
   >
   > Es equivalente al ``CLEAR`` de Ubuntu o al ``CLS`` de Windows
 
-Con esto, tendremos la pantalla de comandos limpia
+Con esto, tendremos la pantalla de comandos limpita
 
 👁 [ÍNDICE](#comandos_index)
