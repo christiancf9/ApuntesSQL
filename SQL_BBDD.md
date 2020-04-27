@@ -199,4 +199,16 @@ Para el ejercicio de 'Naves Espaciales', crearemos la BBDD de manera automática
 
 [CÓDIGO de *Naves Espaciales* (GIST)](https://gist.github.com/christiancf9/b626d47f2b6bf05e708cc083449e0c0c)
 
-![CREATE DATABASE - NAVES ESPACIALES](./imagenes/create_database_naves_espaciales.png)
+Escribiremos lo siguiente para importar código (Depende de nuestra situación):
+
+Fuera de MySQL
+```console
+christian@christian-VirtualBox:~$sudo mysql -u root < /home/christian/Documentos/BBDD/Naves_Espaciales.sql
+```
+Dentro de MySQL
+```sql
+source /home/christian/Documentos/BBDD/Naves_Espaciales.sql;
+```
+En nuestro caso, al estar "dentro", seleccionaremos la 2º opción
+
+![MySQL_SOURCE](./imagenes/mysql_source.png)
