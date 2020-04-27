@@ -1,4 +1,4 @@
-                                                    CREACIÓN BASE DE DATOS (BBDD)
+                                                CREACIÓN DE UNA BASE DE DATOS (BBDD)
                                         
 # DEFINICIÓN
 Una base de datos es una colección organizada de información estructurada, o datos, típicamente almacenados electrónicamente en un sistema informático. Una base de datos generalmente está controlada por un sistema de gestión de bases de datos (SGBD).
