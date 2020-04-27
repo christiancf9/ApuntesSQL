@@ -73,3 +73,12 @@ DESC <Ejemplo-de-tabla>;
   > La opción `DESC` también se conoce como la opción `DESCRIBE` (la cual detalla cualquier tabla que seleccionemos...).
   >
   > También podemos usar el comando ``SHOW COLUMNS FROM Departamento;``
+
+## MOSTRAR VERSIÓN DE MYSQL <a name="comandos_version"></a>
+
+```console
+christian@christian-VirtualBox:~$ mysql --version
+```
+![MYSQL_VERSION](./imagenes/comandos_mysql-version.png)
+  > Si usamos el comando ``apt-get update``, y volvemos a [instalar](https://gist.github.com/christiancf9/2d4452556ae7fbd1514f65af6360619b) el programa
+  >
