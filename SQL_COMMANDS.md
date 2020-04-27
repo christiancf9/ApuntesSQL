@@ -97,6 +97,13 @@ SELECT version();
   >
   > 🛡NOTA: Solo para **MySQL**, en MariaDB sería ``SHOW VARIABLES LIKE ‘%version%’;``
   >
-  > Y en `MySQL` *OR* `MariaDD` -> ``SELECT VERSION();``
+  > Y en `MySQL` *OR* `MariaDB` -> ``SELECT VERSION();``
 
+## LIMPIAR PANTALLA - CLEAR <a name="comandos_clean"></a>
+
+Y para terminar... Un comando súper útil, sería el siguiente
+
+Cuando nos situemos **dentro** de MySQL, realizaremos la siguiente combinación de teclas..
+
+``CTRL + L``
 
