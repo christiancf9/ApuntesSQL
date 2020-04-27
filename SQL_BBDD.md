@@ -120,3 +120,35 @@ Ahora que hemos creado la BBDD, nos tocará dar paso a la creación de tablas...
 #### TABLA SEDE - (PROYECTO DE INVESTIGACIÓN)
 
 ![CREACIÓN DE TABLA_SEDE](./imagenes/create_table-sede.png)
+
+#### TABLA DEPARTAMENTO - (PROYECTO DE INVESTIGACIÓN)
+
+![CREACIÓN DE TABLA_DEPARTAMENTO](./imagenes/create_table-departamento.png)
+
+#### TABLA UBICACIÓN - (PROYECTO DE INVESTIGACIÓN)
+
+![CREACIÓN DE TABLA_UBICACIÓN](./imagenes/create_table-ubicación.png)
+
+#### TABLA GRUPO - (PROYECTO DE INVESTIGACIÓN)
+
+![CREACIÓN DE TABLA_GRUPO](./imagenes/create_table-grupo.png)
+
+#### TABLA PROFESOR - (PROYECTO DE INVESTIGACIÓN)
+
+![CREACIÓN DE TABLA_PROFESOR](./imagenes/create_table-profesor.png)
+
+#### TABLA PROYECTO - (PROYECTO DE INVESTIGACIÓN)
+
+![CREACIÓN DE TABLA_PROYECTO](./imagenes/create_table-proyecto.png)
+
+#### TABLA PARTICIPA - (PROYECTO DE INVESTIGACIÓN)
+
+![CREACIÓN DE TABLA_PARTICIPA](./imagenes/create_table-participa.png)
+
+#### TABLA PROGRAMA - (PROYECTO DE INVESTIGACIÓN)
+
+![CREACIÓN DE TABLA_PROGRAMA](./imagenes/create_table-programa.png)
+
+#### TABLA FINANCIA - (PROYECTO DE INVESTIGACIÓN)
+
+![CREACIÓN DE TABLA_FINANCIA](./imagenes/create_table-financia.png)
