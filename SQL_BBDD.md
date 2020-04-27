@@ -33,5 +33,5 @@ Para ello escribiremos el siguiente comando
 christian@christian-VirtualBox:~$ sudo su
 ```
 
-![SYSTEMCTL_REPASO]((./imagenes/systemctl_repaso.png))
+![SYSTEMCTL_REPASO](./imagenes/systemctl_repaso.png)
 
