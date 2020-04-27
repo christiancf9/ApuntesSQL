@@ -42,3 +42,4 @@ Sobre como visualizar las tablas 👇
 SHOW TABLES;
 ```
 ![MOSTRAR_TABLAS](./imagenes/show_tables_2.png)
+  > También podemos usar el comando ``SHOW TABLE STATUS`` 
