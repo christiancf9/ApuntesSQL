@@ -90,4 +90,6 @@ SHOW DATABASES;
 
 Para este paso, crearemos la BBDD paso a paso, explicando la mayor parte de cosas (en lo posible)
 
-Si deseas acceder al ejercicio1, pincha en este [enlace](https://gist.github.com/christiancf9/cdb0675917f45ac279680d89928ffe5f)
+Si deseas acceder al ejercicio de *proyecto de investigación*, pincha en este [enlace](https://gist.github.com/christiancf9/cdb0675917f45ac279680d89928ffe5f)
+
+
