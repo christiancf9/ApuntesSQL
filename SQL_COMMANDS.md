@@ -69,4 +69,5 @@ DESC <Ejemplo-de-tabla>;
 ```
 ![MOSTRAR INFO - TABLA](./imagenes/desc_departamento.png)
   > La opción `DESC` también se conoce como la opción `DESCRIBE` (la cual detalla cualquier tabla que seleccionemos...).
+  >
   > También podemos usar el comando ``SHOW COLUMNS FROM Departamento;``
