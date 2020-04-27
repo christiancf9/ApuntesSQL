@@ -50,7 +50,7 @@ Una vez iniciado con el usuario root, en la shell de MySQL, procederemos a crear
 
 Para ello en MySQL, teclearemos lo siguiente
 
-```sql
+```console
 mysql> CREATE DATABASE REPASO_BBDD;
 ```
 ![CREATE_BBDD_REPASO](./imagenes/create_bbdd_repaso.png)
