@@ -265,6 +265,8 @@ DESC Raza;
 ```
 ![DESC_RAZA](./imagenes/desc_raza.png)
 
+👁 [ÍNDICE](#sql-bbdd_index)
+
 #### DESCRIPCIÓN TABLA SERVICIO - (NAVES ESPACIALES)
 
 ```sql
@@ -286,7 +288,7 @@ DESC Visita;
 ```
 ![DESC_VISITA](./imagenes/desc_visita.png)
 
-
+👁 [ÍNDICE](#sql-bbdd_index)
 
 
 
