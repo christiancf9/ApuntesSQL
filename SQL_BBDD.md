@@ -78,3 +78,6 @@ DROP DATABASE REPASO_BBDD;
   > 🛡PELIGRO: Cuidado con la sentencia `DROP`, una vez ejecutada ya no se puede revertir...
   
 👁 [ÍNDICE](#sql-bbdd_index)
+
+## CREACIÓN BBDD - PROYECTO DE INVESTIGACIÓN <a name="sql_proyecto-investigacion"></a>
+
