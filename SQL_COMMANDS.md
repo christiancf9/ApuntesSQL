@@ -42,4 +42,5 @@ Sobre como visualizar las tablas 👇
 SHOW TABLES;
 ```
 ![MOSTRAR_TABLAS](./imagenes/show_tables_2.png)
-  > También podemos usar el comando ``SHOW TABLE STATUS`` 
+  > También podemos usar el comando ``SHOW TABLE STATUS``, pero en este caso
+  > nos mostrara un "output" propio, del motor de MySQL
