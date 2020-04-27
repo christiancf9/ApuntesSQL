@@ -117,4 +117,6 @@ USE Proyecto_de_Investigacion;
 
 Ahora que hemos creado la BBDD, nos tocará dar paso a la creación de tablas... Para ello, iremos captura por captura, enseñando el proceso de creación de cada una...
 
+#### TABLA SEDE - (PROYECTO DE INVESTIGACIÓN)
+
 ![CREACIÓN DE TABLA_SEDE](./imagenes/create_table-sede.png)
