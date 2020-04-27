@@ -25,3 +25,6 @@ Algunos ejemplos de SGBD son los siguientes:
 ***
 
 ## ANTES DE LA CREACIÓN (REPASO) <a name="sql_before-create"></a>
+Antes de nada, revisaremos que el proceso de mysql se está ejecutando correctamente...
+
+Para ello
