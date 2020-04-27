@@ -23,3 +23,5 @@ Algunos ejemplos de SGBD son los siguientes:
 2. ⚡ [CREACIÓN BBDD - PROYECTO DE INVESTIGACIÓN](#sql_proyecto-investigacion)
 3. ⚡ [CREACIÓN BBDD - NAVES ESPACIALES](#sql_naves-espaciales)
 ***
+
+## ANTES DE LA CREACIÓN (REPASO) <a name="sql_before-create"></a>
