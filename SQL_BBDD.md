@@ -90,7 +90,7 @@ SHOW DATABASES;
 
 Para el ejercicio de 'Proyecto de Investigación', crearemos la BBDD paso a paso, explicando la mayor parte de cosas (en lo posible)
 
-[CÓDIGO de *proyecto de investigación* (GIST)](https://gist.github.com/christiancf9/cdb0675917f45ac279680d89928ffe5f)
+[CÓDIGO de *Proyecto de investigación* (GIST)](https://gist.github.com/christiancf9/cdb0675917f45ac279680d89928ffe5f)
 
 ### CREACIÓN DE LA BASE DE DATOS - (PROYECTO DE INVESTIGACIÓN)
 
@@ -194,5 +194,9 @@ DESC Departamento;
 
 
 ## CREACIÓN BBDD - NAVES ESPACIALES [AUTOMÁTICO] <a name="sql_naves-espaciales"></a>
+
+Para el ejercicio de 'Naves Espaciales', crearemos la BBDD de manera automática (mediante importación), mostrando cada tabla, con el comando `DESC`.
+
+[CÓDIGO de *Naves Espaciales* (GIST)](https://gist.github.com/christiancf9/b626d47f2b6bf05e708cc083449e0c0c)
 
 ![CREATE DATABASE - NAVES ESPACIALES](./imagenes/create_database_naves_espaciales.png)
