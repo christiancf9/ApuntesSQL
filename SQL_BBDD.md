@@ -71,3 +71,5 @@ Escribimos 👇
 DROP DATABASE REPASO_BBDD;
 ```
 ![DROP_DATABASE_REPASO](./imagenes/repaso_drop_database.png)
+  > 🛡PELIGRO: Cuidado con la sentencia `DROP`, una vez ejecutada ya no se puede revertir...
+  
