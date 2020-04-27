@@ -9,9 +9,10 @@ Trataremos de enseñar los comandos más utilizados, para MySQL
 # ÍNDICE <a name="comandos_index"></a>
 1. ⚡ [COMPROBAR ESTADO](#comandos_estado)
 2. ⚡ [VER LAS BASES DE DATOS](#comandos_ver-bbdd)
-3. ⚡ [VER LAS TABLAS](#comandos_ver-tablas)
-4. ⚡ [MOSTRAR INFORMACIÓN - TABLAS](#comandos_desc-tablas)
-5. ⚡ [MOSTRAR VERSIÓN DE MYSQL](#comandos_version)
+3. ⚡ [SELECCIONAR UNA BBDD](#comandos_seleccion)
+4. ⚡ [VER LAS TABLAS](#comandos_ver-tablas)
+5. ⚡ [MOSTRAR INFORMACIÓN - TABLAS](#comandos_desc-tablas)
+6. ⚡ [MOSTRAR VERSIÓN DE MYSQL](#comandos_version)
 ***
 
 ## COMPROBAR ESTADO <a name="comandos_estado"></a>
@@ -37,10 +38,22 @@ SHOW DATABASES;
 ```
 ![SHOW_DATABASES](./imagenes/show_and_use-databases.png)
   > También podemos usar el siguiente comando: ``SHOW SCHEMAS;``.
+  
+## SELECCIONAR UNA BASE DE DATOS <a name="comandos_seleccion"></a>
+
+Con este sencillo comando, seleccionaremos una BBDD para más adelante, mostrar sus respectivas tablas 👇
+
+```sql
+USE <BBDD_Ejemplo>;
+```
+![SHOW_DATABASES](./imagenes/use_naves-espaciales.png)
+  > También podemos usar el siguiente comando: ``CONNECT Naves_Espaciales;``.
+ 
+👁 [ÍNDICE](#comandos_index)
 
 ## VER LAS TABLAS <a name="comandos_ver-tablas"></a>
 
-Sobre como visualizar las tablas 👇
+Sobre como visualizar las tablas..
 
 ```sql
 SHOW TABLES;
