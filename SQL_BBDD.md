@@ -27,4 +27,11 @@ Algunos ejemplos de SGBD son los siguientes:
 ## ANTES DE LA CREACIÓN (REPASO) <a name="sql_before-create"></a>
 Antes de nada, revisaremos que el proceso de mysql se está ejecutando correctamente...
 
-Para ello
+Para ello escribiremos el siguiente comando
+
+```console
+christian@christian-VirtualBox:~$ sudo su
+```
+
+![SYSTEM-CTL](https://raw.githubusercontent.com/christiancf9/ApuntesSQL/master/imagenes/systemctl.png)
+
