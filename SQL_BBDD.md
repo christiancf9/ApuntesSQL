@@ -36,7 +36,7 @@ christian@christian-VirtualBox:~$ systemctl status mysql.service
 ![SYSTEMCTL_REPASO](./imagenes/systemctl_repaso.png)
   > Podemos observar que el servicio `MySQL` se está ejecutando correctamente..
 
-Ahora, lo que haremos, será iniciar el MySQL en modo root (como ya habíamos configurado previamente en SQL_DDL) 😎
+Lo que haremos ahora, será iniciar el MySQL en modo root (como ya habíamos configurado previamente en SQL_DDL) 😎
 
 Para ello, teclearemos el siguiente comando:
 
@@ -45,3 +45,17 @@ christian@christian-VirtualBox:~$ mysql -u root -p
 ```
 ![MySQL_ROOT_USER](./imagenes/mysql_user_root.png)
   > Como ya hicimos la autenticación de contraseña para el usuario root, procederemos a usar dicho usuario...
+  
+Una vez iniciado con el usuario root, en la shell de MySQL, procederemos a crear una BBDD de prueba...
+
+Para ello en MySQL, teclearemos lo siguiente
+
+```sql
+CREATE DATABASE REPASO_BBDD
+```
+![CREATE_BBDD_REPASO](./imagenes/create_bbdd_repaso.png)
+
+
+
+
+
