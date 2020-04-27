@@ -114,3 +114,7 @@ USE Proyecto_de_Investigacion;
 ![MOSTRAR Y SELECCIONAR LA BBDD](./imagenes/show_and_use-databases.png)
 
 ### CREACIÓN DE TABLAS - (PROYECTO DE INVESTIGACIÓN)
+
+Ahora que hemos creado la BBDD, nos tocará dar paso a la creación de tablas... Para ello, iremos captura por captura, enseñando el proceso de creación de cada una...
+
+![CREACIÓN DE TABLA_SEDE](./imagenes/create_table-sede.png)
