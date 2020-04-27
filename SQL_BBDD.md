@@ -129,6 +129,8 @@ Ahora que hemos creado la BBDD, nos tocará dar paso a la creación de tablas...
 
 ![CREACIÓN DE TABLA_UBICACIÓN](./imagenes/create_table-ubicacion.png)
 
+👁 [ÍNDICE](#sql-bbdd_index)
+
 #### CREACIÓN TABLA GRUPO - (PROYECTO DE INVESTIGACIÓN)
 
 ![CREACIÓN DE TABLA_GRUPO](./imagenes/create_table-grupo.png)
