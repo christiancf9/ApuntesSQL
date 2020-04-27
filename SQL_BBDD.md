@@ -30,8 +30,18 @@ Antes de nada, revisaremos que el proceso de mysql se está ejecutando correctam
 Para ello escribiremos el siguiente comando
 
 ```console
-christian@christian-VirtualBox:~$ sudo su
+christian@christian-VirtualBox:~$ systemctl status mysql.service
 ```
 
 ![SYSTEMCTL_REPASO](./imagenes/systemctl_repaso.png)
   > Podemos observar que el servicio `MySQL` se está ejecutando correctamente..
+
+Ahora, lo que haremos, será iniciar el MySQL en modo root (como ya habíamos configurado previamente en SQL_DDL) 😎
+
+Para ello, teclearemos el siguiente comando:
+
+```console
+christian@christian-VirtualBox:~$ mysql -u root -p
+```
+![MySQL_ROOT_USER](./imagenes/mysql_user_root.png)
+
