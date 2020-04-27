@@ -63,4 +63,11 @@ SHOW DATABASES;
 ```
 ![SHOW_DATABASE_REPASO](./imagenes/repaso_show-bbdd.png)
 
-Una vez creada la BBDD anterior, procederemos a crear el resto de BBDD..
+Una vez creada la BBDD anterior, procederemos a eliminarla...
+
+Escribimos 👇
+
+```sql
+DROP DATABASE REPASO_BBDD;
+```
+![DROP_DATABASE_REPASO](./imagenes/repaso_drop_database.png)
