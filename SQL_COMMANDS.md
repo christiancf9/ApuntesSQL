@@ -13,6 +13,7 @@ Trataremos de enseñar los comandos más utilizados, para MySQL
 4. ⚡ [VER LAS TABLAS](#comandos_ver-tablas)
 5. ⚡ [MOSTRAR INFORMACIÓN - TABLAS](#comandos_desc-tablas)
 6. ⚡ [MOSTRAR VERSIÓN DE MYSQL](#comandos_version)
+7. ⚡ [LIMPIAR PANTALLA - CLEAR](#comandos_clean)
 ***
 
 ## COMPROBAR ESTADO <a name="comandos_estado"></a>
@@ -74,6 +75,8 @@ DESC <Ejemplo-de-tabla>;
   >
   > También podemos usar el comando ``SHOW COLUMNS FROM Departamento;``
 
+👁 [ÍNDICE](#comandos_index)
+
 ## MOSTRAR VERSIÓN DE MYSQL <a name="comandos_version"></a>
 
 ```console
@@ -90,3 +93,4 @@ También dentro de **MySQL**, podremos realizar dicha consulta 👇
 SHOW VARIABLES LIKE ‘%version%’;
 ```
 ![MYSQL_2 - VERSION](./imagenes/comandos_mysql-version_2.png)
+
