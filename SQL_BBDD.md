@@ -225,3 +225,70 @@ Mostramos (como hicimos con Proyecto de Investigación) sus respectivas tablas..
 SHOW TABLES;
 ```
 ![SHOW_TABLES](./imagenes/show_tables_2.png)
+
+### RESULTADO [MUESTRA DE TABLAS] - (NAVES ESPACIALES)
+Mostraremos info de cada una...
+
+#### DESCRIPCIÓN TABLA CAMARA - (NAVES ESPACIALES)
+Escribiremos 👇
+
+```sql
+DESC Camara;
+```
+![DESC_CAMARA](./imagenes/desc_camara.png)
+
+#### DESCRIPCIÓN TABLA DEPENDENCIA - (NAVES ESPACIALES)
+
+```sql
+DESC Dependencia;
+```
+![DESC_DEPENDENCIA](./imagenes/desc_dependencia.png)
+
+#### DESCRIPCIÓN TABLA HABITA - (NAVES ESPACIALES)
+
+```sql
+DESC Habita;
+```
+![DESC_HABITA](./imagenes/desc_habita.png)
+
+#### DESCRIPCIÓN TABLA PLANETA - (NAVES ESPACIALES)
+
+```sql
+DESC Planeta;
+```
+![DESC_PLANETA](./imagenes/desc_planeta.png)
+
+#### DESCRIPCIÓN TABLA RAZA - (NAVES ESPACIALES)
+
+```sql
+DESC Raza;
+```
+![DESC_RAZA](./imagenes/desc_raza.png)
+
+#### DESCRIPCIÓN TABLA SERVICIO - (NAVES ESPACIALES)
+
+```sql
+DESC Servicio;
+```
+![DESC_SERVICIO](./imagenes/desc_servicio.png)
+
+#### DESCRIPCIÓN TABLA TRIPULACIÓN - (NAVES ESPACIALES)
+
+```sql
+DESC Tripulacion;
+```
+![DESC_TRIPULACION](./imagenes/desc_tripulacion.png)
+
+#### DESCRIPCIÓN TABLA VISITA - (NAVES ESPACIALES)
+
+```sql
+DESC Visita;
+```
+![DESC_VISITA](./imagenes/desc_visita.png)
+
+
+
+
+
+
+
