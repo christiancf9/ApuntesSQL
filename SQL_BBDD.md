@@ -88,3 +88,6 @@ SHOW DATABASES;
 
 ## CREACIÓN BBDD - PROYECTO DE INVESTIGACIÓN <a name="sql_proyecto-investigacion"></a>
 
+Para este paso, crearemos la BBDD paso a paso, explicando la mayor parte de cosas (en lo posible)
+
+Si deseas acceder al ejercicio1, pincha en este [enlace](https://gist.github.com/christiancf9/cdb0675917f45ac279680d89928ffe5f)
