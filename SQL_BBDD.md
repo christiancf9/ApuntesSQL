@@ -9,11 +9,11 @@ Un SGBD libera a los usuarios de los programas de una trama para el mantenimient
 
 Algunos ejemplos de SGBD son los siguientes:
 
-  --MySQL / MariaDB
-  --Servidor SQL Server
-  --Oracle
-  --dBASE
-  --FoxPro
+  - MySQL / MariaDB
+  - Servidor SQL Server
+  - Oracle
+  - dBASE
+  - FoxPro
 ***
 ***
 # INDICE <a name="dml_index"></a>
