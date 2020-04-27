@@ -44,4 +44,4 @@ Para ello, teclearemos el siguiente comando:
 christian@christian-VirtualBox:~$ mysql -u root -p
 ```
 ![MySQL_ROOT_USER](./imagenes/mysql_user_root.png)
-
+  > Como ya hicimos la autenticación de contraseña para el usuario root, procederemos a usar dicho usuario...
