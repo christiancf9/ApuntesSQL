@@ -9,7 +9,7 @@ Trataremos de enseñar los comandos más utilizados, para MySQL
 # ÍNDICE <a name="comandos_index"></a>
 1. ⚡ [COMPROBAR ESTADO](#comandos_estado)
 2. ⚡ [VER LAS BASES DE DATOS](#comandos_ver-bbdd)
-3. ⚡ [VER TABLAS](#comandos_ver-tablas)
+3. ⚡ [VER LAS TABLAS](#comandos_ver-tablas)
 4. ⚡ [MOSTRAR INFORMACIÓN - TABLAS](#comandos_desc-tablas)
 5. ⚡ [MOSTRAR VERSIÓN DE MYSQL](#comandos_version)
 ***
@@ -33,3 +33,12 @@ Con este sencillo comando, visualizaremos las bases de datos `BBDD` creadas en e
 SHOW DATABASES;
 ```
 ![SHOW_DATABASES](./imagenes/show_and_use-databases.png)
+
+## VER LAS TABLAS <a name="comandos_ver-tablas"></a>
+
+Sobre como visualizar las tablas 👇
+
+```sql
+SHOW TABLES;
+```
+![MOSTRAR_TABLAS](./imagenes/show_tables_2.png)
