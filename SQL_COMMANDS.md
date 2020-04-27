@@ -25,7 +25,9 @@ christian@christian-VirtualBox:~$ systemctl status mysql.service
 ![SYSTEMCTL_REPASO](./imagenes/repaso_systemctl.png)
   > Podemos observar que el servicio `MySQL` se está ejecutando correctamente..
   > Systemctl no funciona con el usuario `root`. Eso si, nos pedirá obviamente la password..
+  >
   > Si nos sigue sin funcionar, podemos usar el comando ``systemctl restart mysql.service``
+  >
   > 🛡NOTA: No es lo mismo `RELOAD` que `RESTART`, el 1º recarga los archivos del sistema,
   > el otro "apaga" y vuelve a "encender" el SGBD.
 
