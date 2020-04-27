@@ -32,4 +32,4 @@ Con este sencillo comando, visualizaremos las bases de datos `BBDD` creadas en e
 ```sql
 SHOW DATABASES;
 ```
-![SHOW_DATABASE_REPASO](./imagenes/repaso_show-bbdd.png)
+![SHOW_DATABASES](./imagenes/show_and_use-databases.png)
