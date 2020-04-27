@@ -172,7 +172,7 @@ Ahora que hemos creado la BBDD, nos tocará dar paso a la creación de tablas...
 ### RESULTADO - (PROYECTO DE INVESTIGACIÓN)
 
 ```sql
-SHOW DATABASES;
+SHOW TABLES;
 ```
-![SHOW DATABASE_3](./imagenes/show_databases_3.png)
+![SHOW_TABLES](./imagenes/show_tables.png)
 
