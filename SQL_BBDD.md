@@ -113,4 +113,4 @@ USE Proyecto_de_Investigacion;
 
 ![MOSTRAR Y SELECCIONAR LA BBDD](./imagenes/show_and_use-databases.png)
 
-
+### CREACIÓN DE TABLAS - (PROYECTO DE INVESTIGACIÓN)
