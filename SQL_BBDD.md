@@ -33,5 +33,5 @@ Para ello escribiremos el siguiente comando
 christian@christian-VirtualBox:~$ sudo su
 ```
 
-![SYSTEM-CTL](https://raw.githubusercontent.com/christiancf9/ApuntesSQL/master/imagenes/systemctl.png)
+![SYSTEM-CTL](https://raw.githubusercontent.com/christiancf9/ApuntesSQL/master/imagenes/systemctl_repaso.png)
 
