@@ -90,7 +90,7 @@ SHOW DATABASES;
 
 Para el ejercicio de 'Proyecto de Investigación', crearemos la BBDD paso a paso, explicando la mayor parte de cosas (en lo posible)
 
-[ejercicio de *proyecto de investigación*](https://gist.github.com/christiancf9/cdb0675917f45ac279680d89928ffe5f)
+[CÓDIGO de *proyecto de investigación* (GIST)](https://gist.github.com/christiancf9/cdb0675917f45ac279680d89928ffe5f)
 
 ### CREACIÓN DE LA BASE DE DATOS - (PROYECTO DE INVESTIGACIÓN)
 
