@@ -94,6 +94,7 @@ SELECT version();
 ```
 ![MYSQL_2 - VERSION](./imagenes/comandos_select-version.png)
   > O también podemos usar este comando -> ``select @@version;``
+  >
   > 🛡NOTA: Solo para **MySQL**, en MariaDB sería ``SHOW VARIABLES LIKE ‘%version%’;``
 
 
