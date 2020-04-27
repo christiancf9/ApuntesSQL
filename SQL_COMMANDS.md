@@ -36,6 +36,7 @@ Con este sencillo comando, visualizaremos las bases de datos `BBDD` creadas en e
 SHOW DATABASES;
 ```
 ![SHOW_DATABASES](./imagenes/show_and_use-databases.png)
+  > También podemos usar el siguiente comando: ``SHOW SCHEMAS;``.
 
 ## VER LAS TABLAS <a name="comandos_ver-tablas"></a>
 
@@ -45,5 +46,5 @@ Sobre como visualizar las tablas 👇
 SHOW TABLES;
 ```
 ![MOSTRAR_TABLAS](./imagenes/show_tables_2.png)
-  > También podemos usar el comando ``SHOW TABLE STATUS``, pero en este caso
+  > También podemos usar el comando ``SHOW TABLE STATUS;``, pero en este caso
   > nos mostrara un "output" propio, del motor de MySQL
