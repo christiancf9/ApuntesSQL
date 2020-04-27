@@ -46,7 +46,9 @@ christian@christian-VirtualBox:~$ mysql -u root -p
 ```
 ![MySQL_ROOT_USER](./imagenes/repaso_mysql_user_root.png)
   > Como ya hicimos la autenticación de contraseña para el usuario root, procederemos a usar dicho usuario...
-  
+
+👁 [ÍNDICE](#ddl_index)
+
 Una vez iniciado con el usuario root, en la shell de MySQL, procederemos a crear una BBDD de prueba...
 
 Para ello en MySQL, teclearemos lo siguiente
@@ -57,7 +59,9 @@ CREATE DATABASE REPASO_BBDD;
 ![CREATE_BBDD_REPASO](./imagenes/repaso_create_bbdd.png)
   > 🛡NOTA: En MySQL, no existe ninguna diferencia entre `CREATE SCHEMA` y `CREATE DATABASE`.
   > En otros SGBD (Ej: Oracle) si existe diferencia (Permisos...)
-  
+
+👁 [ÍNDICE](#ddl_index)
+
 ```sql
 SHOW DATABASES;
 ```
