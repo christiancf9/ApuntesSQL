@@ -127,7 +127,7 @@ Ahora que hemos creado la BBDD, nos tocará dar paso a la creación de tablas...
 
 #### CREACIÓN TABLA UBICACIÓN - (PROYECTO DE INVESTIGACIÓN)
 
-![CREACIÓN DE TABLA_UBICACIÓN](./imagenes/create_table-ubicación.png)
+![CREACIÓN DE TABLA_UBICACIÓN](./imagenes/create_table-ubicacion.png)
 
 #### CREACIÓN TABLA GRUPO - (PROYECTO DE INVESTIGACIÓN)
 
