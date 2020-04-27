@@ -141,6 +141,8 @@ Ahora que hemos creado la BBDD, nos tocará dar paso a la creación de tablas...
 
 ![CREACIÓN DE TABLA_PROYECTO](./imagenes/create_table-proyecto.png)
 
+👁 [ÍNDICE](#sql-bbdd_index)
+
 #### MODIFICACIÓN TABLA DEPARTAMENTO - (PROYECTO DE INVESTIGACIÓN)
 
 ![MODIFICACIÓN DE TABLA_PROGRAMA](./imagenes/alter_table-departamento.png)
@@ -169,10 +171,28 @@ Ahora que hemos creado la BBDD, nos tocará dar paso a la creación de tablas...
 
 ![MODIFICACIÓN DE TABLA_FINANCIA](./imagenes/alter_table-financia_2.png)
 
-### RESULTADO - (PROYECTO DE INVESTIGACIÓN)
+### RESULTADO [MUESTRA DE TABLAS] - (PROYECTO DE INVESTIGACIÓN)
+Si queremos ver las tablas...
 
 ```sql
 SHOW TABLES;
 ```
 ![SHOW_TABLES](./imagenes/show_tables.png)
 
+Ya que vimos como se creaban las tablas, ahora detallaremos, como mostrar alguna que otra tabla, de manera detallada...
+
+Para ello escribiremos 👇
+
+```sql
+DESC Departamento;
+```
+![DESCRIBE_DEPARTAMENTO](./imagenes/desc_departamento.png)
+  > La opción `DESC` también se conoce como la opción `DESCRIBE` (la cual detalla cualquier tabla que seleccionemos...)
+  > Está opción, la usaremos más a fondo, cuando vayamos a crear, la base de datos, "Naves Espaciales".
+  
+👁 [ÍNDICE](#sql-bbdd_index)  
+
+
+## CREACIÓN BBDD - NAVES ESPACIALES [AUTOMÁTICO] <a name="sql_naves-espaciales"></a>
+
+![CREATE DATABASE - NAVES ESPACIALES](./imagenes/create_database_naves_espaciales.png)
