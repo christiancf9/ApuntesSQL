@@ -80,7 +80,7 @@ DROP DATABASE REPASO_BBDD;
 Y comprobamos 🤞
 
 ```sql
-SHOW SCHEMAS;
+SHOW DATABASES;
 ```
 ![SHOW_DATABASE_REPASO2](./imagenes/repaso_show-bbdd_2.png)
 
