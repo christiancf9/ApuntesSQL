@@ -18,8 +18,8 @@ Algunos ejemplos de SGBD son los siguientes:
   
 ***
 ***
-# INDICE <a name="dml_index"></a>
-1. ⚡ [DML - INSERT](#dml_insert)
-2. ⚡ [DML - UPDATE](#dml_update)
-3. ⚡ [DML - DELETE](#dml_delete)
+# ÍNDICE <a name="sql-bbdd_index"></a>
+1. ⚡ [ANTES DE LA CREACIÓN](#sql_before-create)
+2. ⚡ [CREACIÓN BBDD - PROYECTO DE INVESTIGACIÓN](#sql_proyecto-investigacion)
+3. ⚡ [CREACIÓN BBDD - NAVES ESPACIALES](#sql_naves-espaciales)
 ***
