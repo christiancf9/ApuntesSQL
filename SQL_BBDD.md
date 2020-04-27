@@ -86,10 +86,19 @@ SHOW DATABASES;
 
 👁 [ÍNDICE](#sql-bbdd_index)
 
-## CREACIÓN BBDD - PROYECTO DE INVESTIGACIÓN <a name="sql_proyecto-investigacion"></a>
+## CREACIÓN BBDD - PROYECTO DE INVESTIGACIÓN [MANUAL] <a name="sql_proyecto-investigacion"></a>
 
-Para este paso, crearemos la BBDD paso a paso, explicando la mayor parte de cosas (en lo posible)
+Para el ejercicio de 'Proyecto de Investigación', crearemos la BBDD paso a paso, explicando la mayor parte de cosas (en lo posible)
 
-Si deseas acceder al ejercicio de *proyecto de investigación*, pincha en este [enlace](https://gist.github.com/christiancf9/cdb0675917f45ac279680d89928ffe5f)
+[ejercicio de *proyecto de investigación*](https://gist.github.com/christiancf9/cdb0675917f45ac279680d89928ffe5f)
+
+### CREACIÓN DE LA BASE DE DATOS - (PROYECTO DE INVESTIGACIÓN)
+
+1º de todo, antes de empezar, crearemos la base de datos
+
+```sql
+CREATE DATABASE Proyecto_de_Investigacion;
+```
+
 
 
