@@ -168,3 +168,11 @@ Ahora que hemos creado la BBDD, nos tocará dar paso a la creación de tablas...
 #### MODIFICACIÓN TABLA FINANCIA_2 - (PROYECTO DE INVESTIGACIÓN)
 
 ![MODIFICACIÓN DE TABLA_FINANCIA](./imagenes/alter_table-financia_2.png)
+
+### RESULTADO - (PROYECTO DE INVESTIGACIÓN)
+
+```sql
+SHOW DATABASES;
+```
+![SHOW DATABASE_3](./imagenes/show_databases_3.png)
+
