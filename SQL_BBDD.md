@@ -33,7 +33,7 @@ Para ello escribiremos el siguiente comando
 christian@christian-VirtualBox:~$ systemctl status mysql.service
 ```
 
-![SYSTEMCTL_REPASO](./imagenes/systemctl_repaso.png)
+![SYSTEMCTL_REPASO](./imagenes/repaso_systemctl.png)
   > Podemos observar que el servicio `MySQL` se está ejecutando correctamente..
 
 Lo que haremos ahora, será iniciar el MySQL en modo root (como ya habíamos configurado previamente en SQL_DDL) 😎
@@ -43,23 +43,23 @@ Para ello, teclearemos el siguiente comando:
 ```console
 christian@christian-VirtualBox:~$ mysql -u root -p
 ```
-![MySQL_ROOT_USER](./imagenes/mysql_user_root.png)
+![MySQL_ROOT_USER](./imagenes/repaso_mysql_user_root.png)
   > Como ya hicimos la autenticación de contraseña para el usuario root, procederemos a usar dicho usuario...
   
 Una vez iniciado con el usuario root, en la shell de MySQL, procederemos a crear una BBDD de prueba...
 
 Para ello en MySQL, teclearemos lo siguiente
 
-```console
-mysql> CREATE DATABASE REPASO_BBDD;
+```sql
+CREATE DATABASE REPASO_BBDD;
 ```
-![CREATE_BBDD_REPASO](./imagenes/create_bbdd_repaso.png)
+![CREATE_BBDD_REPASO](./imagenes/repaso_create_bbdd.png)
   > 🛡NOTA: En MySQL, no existe ninguna diferencia entre ``CREATE SCHEMA`` y ``CREATE DATABASE``.
   > En otros SGBD (Ej: Oracle) si existe diferencia (Permisos...)
   
 ```sql
-CREATE DATABASE REPASO_BBDD;
+SHOW DATABASES;
 ```
-
+![SHOW_DATABASE_REPASO](./imagenes/repaso_show-bbdd.png)
 
 
