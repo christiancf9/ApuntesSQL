@@ -102,13 +102,15 @@ CREATE DATABASE Proyecto_de_Investigacion;
 ![CREATE DATABASE - PROYECTO DE INVESTIGACION](./imagenes/create_database_proyecto-de-investigacion.png)
 
 Lo siguiente será seleccionar dicha base de datos (Para ello mostraremos las disponibles) 👇
+
 ```sql
 SHOW DATABASES;
 ```
-![MOSTRAR Y SELECCIONAR LA BBDD](./imagenes/show_and_use-databases.png)
+
 ```sql
 USE Proyecto_de_Investigacion;
 ```
 
+![MOSTRAR Y SELECCIONAR LA BBDD](./imagenes/show_and_use-databases.png)
 
 
