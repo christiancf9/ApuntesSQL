@@ -34,4 +34,4 @@ christian@christian-VirtualBox:~$ sudo su
 ```
 
 ![SYSTEMCTL_REPASO](./imagenes/systemctl_repaso.png)
-
+  > Podemos observar que el servicio se está ejecutando correctamente..
