@@ -14,3 +14,13 @@ Trataremos de enseñar los comandos más utilizados, para MySQL
 5. ⚡ [MOSTRAR VERSIÓN DE MYSQL](#comandos_version)
 ***
 
+## COMPROBAR ESTADO <a name="comandos_estado"></a>
+
+Para comprobar el estado del proceso de MySQL en Ubuntu, escribiremos lo siguiente:
+
+```console
+christian@christian-VirtualBox:~$ systemctl status mysql.service
+```
+![SYSTEMCTL_REPASO](./imagenes/repaso_systemctl.png)
+  > Podemos observar que el servicio `MySQL` se está ejecutando correctamente..
+  > Systemctl no funciona con el usuario `root`
